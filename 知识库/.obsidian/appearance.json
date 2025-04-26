@@ -1,0 +1,8 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "showRibbon": true,
+  "cssTheme": "Obsidian Nord",
+  "nativeMenus": false
+}

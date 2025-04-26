@@ -1,0 +1,14 @@
+{
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments",
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "promptDelete": true,
+  "trashOption": "none"
+}

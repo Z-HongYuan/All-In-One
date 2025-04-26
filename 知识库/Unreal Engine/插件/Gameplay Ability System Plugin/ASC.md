@@ -1,0 +1,1 @@
+每个需要`AbilitySystem`所需要附加的组件ASC
