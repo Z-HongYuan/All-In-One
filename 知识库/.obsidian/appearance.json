@@ -4,5 +4,7 @@
   "baseFontSizeAction": true,
   "showRibbon": true,
   "cssTheme": "Obsidian Nord",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "monospaceFontFamily": "",
+  "showViewHeader": true
 }

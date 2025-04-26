@@ -10,5 +10,7 @@
   "readableLineLength": true,
   "propertiesInDocument": "visible",
   "promptDelete": true,
-  "trashOption": "none"
+  "trashOption": "none",
+  "livePreview": false,
+  "showInlineTitle": true
 }

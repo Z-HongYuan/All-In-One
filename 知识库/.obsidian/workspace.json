@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/渲染/三渲二(旧).md",
-                "mode": "preview",
-                "source": false
+                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "三渲二(旧)"
+              "title": "⭐GAS中文文档"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/渲染/三渲二(旧).md",
+                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "三渲二(旧) 的大纲"
+              "title": "⭐GAS中文文档 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/渲染/三渲二(旧).md",
+                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "三渲二(旧)"
+              "title": "⭐GAS中文文档"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -182,14 +182,33 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
+          },
+          {
+            "id": "cff97b9cae7dcf9f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "2e9d697b160cb3d2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,18 +219,24 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "audio-recorder:开始/结束录音": false
+      "audio-recorder:开始/结束录音": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5582b7498fc76a01",
+  "active": "cff97b9cae7dcf9f",
   "lastOpenFiles": [
+    "Unreal Engine/⭐UE ReadMe Origin.md",
+    "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
+    "Unreal Engine/插件/Gameplay Ability System Plugin/Task.md",
+    "Genshin Elemental Warfare/⭐Genshin Origin.md",
+    "Unreal Engine/插件/Chaos载具插件/Chaos 载具插件.md",
+    "Unreal Engine/渲染/三渲二(旧).md",
     "Unreal Engine/渲染/三渲二.md",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104818.png",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104807.png",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104037.png",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104025.png",
-    "Unreal Engine/渲染/三渲二(旧).md",
-    "Genshin Elemental Warfare/⭐Genshin Origin.md",
     "Genshin Elemental Warfare/未命名",
     "Blender/Blender Script 脚本.md",
     "Blender/⭐Blender Learn 学习.md",
@@ -219,7 +244,6 @@
     "Unreal Engine/用户界面/UMG View Modal Plugin.md",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
-    "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine/用户界面/Common UI Plugin.md",
     "Unreal Engine/用户界面/模块化和可扩展性UI系统.md",
     "Unreal Engine/用户界面/多语言 本地化.md",
@@ -245,11 +269,8 @@
     "Unreal Engine/渲染",
     "Unreal Engine/插件/Gameplay Camera 游戏摄像机/UE摄像机.md",
     "Unreal Engine/插件/Online Subsystem在线系统/Online Subsystem.md",
-    "Unreal Engine/插件/Chaos载具插件/Chaos 载具插件.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
     "Unreal Engine/插件/Gameplay Ability System Plugin/Gameplay Tag.md",
     "Unreal Engine/插件/Gameplay Ability System Plugin/Gameplay Cue.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Task.md",
     "Unreal Engine/插件/Gameplay Ability System Plugin/Attribute.md",
     "Unreal Engine/插件/Gameplay Ability System Plugin/Effect.md",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
