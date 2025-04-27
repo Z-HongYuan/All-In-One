@@ -1,36 +1,39 @@
 # Title
+
 > [!总结]
+>
 > > # My First Project
 > > # 我的第一个正式项目
-> > 使用了许多 `UE5` 的新技术, 目的是为了学习, 理解游戏开发,以及巩固 `UE` 基础
+> > 使用了许多 `UE5` 的新技术, 目的是为了==学习, 理解游戏开发==,以及巩固 `UE` 基础
 
 # 版本控制管理
-~~使用Github远程保存整个项目，包括但不限于Cpp文件和蓝图。~~
-==~~为什么使用Git+Perforce?~~==
-~~因为在UE中，蓝图文件使用二进制保存。对于Git而言不擅长处理频繁变化的二进制文件，会使整个.git仓库变得庞大。反而采用集中式的Perforce适合管理UE的蓝图等资产。~~
-~~因此使用Git管理代码相关的文件，使用Perforce管理蓝图文件。~~
+
+~~使用 Github 远程保存整个项目，包括但不限于 Cpp 文件和蓝图。~~
+==~~为什么使用 Git+Perforce?~~==
+~~因为在 UE 中，蓝图文件使用二进制保存。对于 Git 而言不擅长处理频繁变化的二进制文件，会使整个.git 仓库变得庞大。反而采用集中式的 Perforce 适合管理 UE 的蓝图等资产。~~
+~~因此使用 Git 管理代码相关的文件，使用 Perforce 管理蓝图文件。~~
 
 1.  ~~Git~~
-	~~使用Git管理代码，配置等文本文件~~
-	- ~~Source文件夹，包含项目所需的Cpp文件等~~
-	- ~~Config文件夹，包含项目设置，游戏设置等配置文件~~
-	- ~~Plugins文件夹，包含项目所需的插件等~~
+	~~使用 Git 管理代码，配置等文本文件~~
+	- ~~Source 文件夹，包含项目所需的 Cpp 文件等~~
+	- ~~Config 文件夹，包含项目设置，游戏设置等配置文件~~
+	- ~~Plugins 文件夹，包含项目所需的插件等~~
 
 2.  ~~Perforce~~
-	~~使用Perforce管理蓝图等频繁修改的二进制文件。~~
-	- ~~仅仅只有Content文件夹~~
+	~~使用 Perforce 管理蓝图等频繁修改的二进制文件。~~
+	- ~~仅仅只有 Content 文件夹~~
 
  **最后选择使用 `Git` + `Github` 管理整个项目文件, 包括美术文件, 但是需要确定版本后再添加进 `VSC` 管理**
 
 ---
 
 # AI 建议
+
 在 **Unreal Engine** 中使用 **GAS（Gameplay Ability System）** 实现类似《原神》的 **元素反应机制**，需要结合 **Gameplay Tags**、**Gameplay Abilities** 和 **Gameplay Effects** 来管理元素状态和触发反应。以下是实现的核心步骤和逻辑：
 
 ---
 
 1. 核心设计思路
-    
 
 《原神》的元素反应机制基于 **元素附着（Elemental Application）** 和 **元素交互（Elemental Interaction）**。例如：
 
@@ -39,52 +42,42 @@
 - 雷 + 冰 → 超导（Superconduct）
     
 - 其他元素组合触发不同效果（融化、感电、冻结等）。
-    
 
 核心逻辑：
 
 1. 每个元素技能施加一个
-    
 
 **元素状态（如 Pyro, Hydro, Cryo 等）**。
 
 2. 当两个元素状态共存时，触发对应的反应，并清除或替换原有状态。
     
 3. 反应可能造成伤害、状态变化或增益效果。
-    
 
 ---
 
 4. 实现步骤
-    
 
-#### 2.1 定义元素标签（Gameplay Tags）
+## 2.1 定义元素标签（Gameplay Tags）
 
 - 在
-    
 
 **Gameplay Tag Manager** 中创建元素标签：
 
-plaintext
-
-复制
-
-Element.Pyro
-
-Element.Hydro
-
-Element.Cryo
-
-Element.Electro
-
-Element.Dendro
-
-Element.Anemo
-
-Element.Geo
+	- Element.Pyro
+	
+	- Element.Hydro
+	
+	- Element.Cryo
+	
+	- Element.Electro
+	
+	- Element.Dendro
+	
+	- Element.Anemo
+	
+	- Element.Geo
 
 - 创建反应类型标签（可选）：
-    
 
 plaintext
 
@@ -96,10 +89,9 @@ Reaction.Melt
 
 Reaction.Superconduct
 
-#### 2.2 创建元素效果（Gameplay Effects）
+## 2.2 创建元素效果（Gameplay Effects）
 
 - 元素附着（Elemental Application）
-    
 
 ：
 
@@ -115,22 +107,19 @@ Element.Pyro 和 Element.Hydro，施加高额伤害。
 
 State.Frozen 状态，限制移动。
 
-#### 2.3 检测元素反应
+## 2.3 检测元素反应
 
 在 **Gameplay Ability** 或 **Actor Component** 中检测元素组合：
 
 1. 当施加元素时，检查目标当前的
-    
 
 **Active Gameplay Effects**。
 
 2. 通过
-    
 
 Gameplay Tag 匹配现有元素和反应表。
 
 3. 触发对应的反应逻辑。
-    
 
 **示例代码（C++）**：
 
@@ -158,12 +147,9 @@ void UElementSystemComponent::CheckElementReaction(FGameplayTagContainer Applied
 }
 ```
 
-  
-
-#### 2.4 反应逻辑实现
+## 2.4 反应逻辑实现
 
 - 触发反应
-    
 
 ：根据反应类型执行逻辑：
 
@@ -182,85 +168,70 @@ void UElementSystemComponent::CheckElementReaction(FGameplayTagContainer Applied
 **示例（蓝图）**：
 
 1. 使用
-    
 
 Gameplay Effect 的 Modifiers 调整角色属性（如生命值）。
 
 2. 通过
-    
 
 Gameplay Cue 播放特效和音效。
 
 ---
 
 3. 高级功能
-    
 
-#### 3.1 元素优先级与共存
+## 3.1 元素优先级与共存
 
 - 元素优先级
-    
 
 ：某些元素会覆盖其他元素（如强火 + 弱水 → 火残留）。
 
 - 持续时间管理
-    
 
 ：通过 Gameplay Effect 的 Duration 和 Period 控制元素附着时间。
 
-#### 3.2 网络同步
+## 3.2 网络同步
 
 - 使用
-    
 
 Gameplay Ability 的 Net Execution Policy 确保客户端和服务器同步。
 
 - 通过
-    
 
 Ability Task 处理客户端特效。
 
-#### 3.3 数据驱动设计
+## 3.3 数据驱动设计
 
 - 使用
-    
 
 **Data Table** 或 **Curve Table** 定义反应伤害公式（如 基础伤害 × 元素精通）。
 
 ---
 
 4. 工具与插件推荐
-    
 
 - GAS Companion
-    
 
 ：简化 GAS 的配置和管理。
 
 - GAS Shooter 示例项目
-    
 
 ：参考如何实现状态交互。
 
 - Niagara 系统
-    
 
 ：用于元素反应特效。
 
 ---
 
 5. 参考资源
-    
 
 - 官方文档
-    
 
 ：
 
 [Unreal Engine Gameplay Ability System](https://docs.unrealengine.com/5.0/en-US/gameplay-ability-system-in-unreal-engine/)
 
 - 社区教程
-    
 
 ：
 
@@ -276,17 +247,15 @@ Ability Task 处理客户端特效。
 
 ---
 
-### 一、核心系统架构
+# 一、核心系统架构
 
 6. 角色控制系统
-    
 
 - 角色移动（Character Movement）
     
     - 实现基础移动（走、跑、蹲、匍匐）、跳跃、攀爬、掩体交互（Cover System）。
         
     - 使用 UE 的
-        
 
 **Character Movement Component**，结合 **Root Motion** 或 **Motion Warping** 实现平滑动作。
 
@@ -301,14 +270,12 @@ Ability Task 处理客户端特效。
 - 角色动画系统
     
     - 使用
-        
 
 **Animation Blueprints** + **Blend Spaces** 控制移动和动作混合。
 
 **Anim Montages** 或 **State Machines** 实现。
 
 7. 武器与战斗系统
-    
 
 - 武器管理（Weapon System）
     
@@ -317,7 +284,6 @@ Ability Task 处理客户端特效。
     - 武器属性（射速、弹匣容量、后坐力、散射）。
         
     - 使用
-        
 
 **Sockets** 将武器绑定到角色骨骼。
 
@@ -328,7 +294,6 @@ Ability Task 处理客户端特效。
     - 伤害计算（命中部位、护甲穿透、暴击）。
         
     - 使用
-        
 
 **GAS（Gameplay Ability System）** 管理技能和状态（如换弹、武器过热）。
 
@@ -337,24 +302,20 @@ Ability Task 处理客户端特效。
     - 弹匣管理（当前弹药、备弹量）。
         
     - 换弹动作打断与动画同步。
-        
 
 8. 敌人与 AI 系统
-    
 
 - 行为树（Behavior Tree）
     
     - 巡逻、追击、攻击、寻找掩体等逻辑。
         
     - 使用
-        
 
 **Blackboard** 存储目标位置、玩家状态等数据。
 
 - 感知系统（Perception System）
     
     - AI 通过
-        
 
 **AIPerceptionComponent** 检测玩家（视觉、听觉）。
 
@@ -365,14 +326,12 @@ Ability Task 处理客户端特效。
 - 血量管理、受击反馈（Hit Reaction）。
     
 - 弱点系统（如爆头伤害加成）。
-    
 
 ---
 
-### 二、技术支撑系统
+# 二、技术支撑系统
 
 9. 1. 网络与多人游戏（Multiplayer）
-    
 
 - 网络同步（Replication）
 
@@ -442,7 +401,7 @@ Data Tables 配置武器属性、敌人数据。
 
 ---
 
-### 三、扩展系统1. 技能与装备系统
+# 三、扩展系统 1. 技能与装备系统
 
   - 角色技能（Abilities）
 
@@ -490,54 +449,45 @@ Data Tables 配置武器属性、敌人数据。
 
 ---
 
-### 四、推荐 UE 工具与插件
+# 四、推荐 UE 工具与插件
 
 1. GAS（Gameplay Ability System）
-    
 
 ：管理技能、状态和战斗逻辑。
 
 2. ALS（Advanced Locomotion System）
-    
 
 ：社区开源的高质量角色移动解决方案。
 
 3. AIModule
-    
 
 ：内置 AI 行为树和导航系统。
 
 4. Online Subsystem
-    
 
 ：集成 Steam、Epic 等平台的多人服务。
 
 5. Niagara
-    
 
 ：高性能粒子特效系统。
 
 ---
 
-### 五、开发流程建议
+# 五、开发流程建议
 
 1. 原型阶段
-    
 
 ：优先实现核心玩法（移动、射击、基础 AI）。
 
 2. 迭代阶段
-    
 
 ：逐步加入武器系统、UI、多人联机。
 
 3. 优化阶段
-    
 
 ：性能分析（使用 **Unreal Insights**）、网络同步优化。
 
 4. 测试阶段
-    
 
 ：QA 测试、反作弊验证、用户体验调整。
 
@@ -551,7 +501,7 @@ Data Tables 配置武器属性、敌人数据。
 
 ---
 
-### 一、开发阶段划分
+# 一、开发阶段划分
 
 将项目分为 **5 个主要阶段**，每阶段包含关键任务和交付成果：
 
@@ -566,9 +516,9 @@ Data Tables 配置武器属性、敌人数据。
 
 ---
 
-### 二、详细开发计划
+# 二、详细开发计划
 
-#### 阶段 1：预生产阶段（Pre-Production）
+## 阶段 1：预生产阶段（Pre-Production）
 
 目标：明确游戏方向，验证技术可行性，制定开发规范。
 
@@ -803,14 +753,12 @@ Unreal Insights 分析帧率瓶颈。
 - 监控服务器稳定性（防 DDoS）。
 
 1. - 定期更新内容（新武器、地图、活动）。
-    
 
 ---
 
-### 三、关键开发工具推荐
+# 三、关键开发工具推荐
 
 1. 1.代码管理
-    
 
 ：Git + Git LFS（大文件支持）。
 
@@ -840,7 +788,7 @@ Unreal Insights 分析帧率瓶颈。
 
 ---
 
-### 四、风险管理
+# 四、风险管理
 
 1.技术风险
 
@@ -864,7 +812,7 @@ Unreal Insights 分析帧率瓶颈。
 
 ---
 
-### 五、总结
+# 五、总结
 
 将以上计划拆解为 **具体任务卡片**，分配给团队成员，并通过每日站会同步进度。例如：
 
@@ -887,27 +835,19 @@ B --> C{输入分类}
 
 C -->|战斗输入| D[角色技能系统]
 
-C -->|UI输入| E[UMG控件系统]
+C -->|UI 输入| E[UMG 控件系统]
 
 C -->|全局输入| F[暂停/截图等]
 
 # 关卡切换相关
 
-  
-
 总的来说使用世界分区|关卡流送
 
-  
-
-在虚幻引擎5（UE5）中，关卡转换的实现方式多样，开发者可以根据项目需求选择不同的技术方案。以下是主要的实现方法及其应用场景：
-
-  
+在虚幻引擎 5（UE5）中，关卡转换的实现方式多样，开发者可以根据项目需求选择不同的技术方案。以下是主要的实现方法及其应用场景：
 
 ---
 
-  
-
-### **1. 基础关卡切换（非无缝切换）**
+## **1. 基础关卡切换（非无缝切换）**
 
 通过直接加载新关卡实现，但会重置当前关卡的所有对象，适用于简单场景切换。
 
@@ -917,43 +857,33 @@ C -->|全局输入| F[暂停/截图等]
         
     - **蓝图节点** `**OpenLevel**`：在蓝图中使用 `UGameplayStatics::OpenLevel` 节点加载新关卡。
         
-    - **数据重置**：所有Actor会被销毁，需通过 `GameInstance` 手动保存关键数据（如角色装备）。
+    - **数据重置**：所有 Actor 会被销毁，需通过 `GameInstance` 手动保存关键数据（如角色装备）。
         
 - **优点**：实现简单，适合小型项目或原型开发。
     
 - **缺点**：切换时有明显卡顿，无法保留数据。
-    
-
-  
 
 ---
 
-  
+## **2. 无缝切换（Seamless Travel）**
 
-### **2. 无缝切换（Seamless Travel）**
-
-通过保留部分Actor实现平滑过渡，适合需要携带数据（如玩家状态）的场景。
+通过保留部分 Actor 实现平滑过渡，适合需要携带数据（如玩家状态）的场景。
 
 - **实现步骤**：
     
     - **启用无缝漫游**：在 `GameMode` 中设置 `bUseSeamlessTravel = true`。
         
-    - **保留Actor**：重写 `AGameMode::GetSeamlessTravelActorList` 函数，指定需要保留的Actor（如玩家控制器、角色数据）。
+    - **保留 Actor**：重写 `AGameMode::GetSeamlessTravelActorList` 函数，指定需要保留的 Actor（如玩家控制器、角色数据）。
         
-    - **使用** `**ServerTravel**`：通过 `UWorld::ServerTravel` 切换关卡（需在C++中暴露给蓝图）。
+    - **使用** `**ServerTravel**`：通过 `UWorld::ServerTravel` 切换关卡（需在 C++ 中暴露给蓝图）。
         
 - **优点**：无卡顿，支持数据持久化。
     
-- **缺点**：实现复杂，需处理Actor的跨关卡同步。
-    
-
-  
+- **缺点**：实现复杂，需处理 Actor 的跨关卡同步。
 
 ---
 
-  
-
-### **3. 关卡流送（Level Streaming）**
+## **3. 关卡流送（Level Streaming）**
 
 动态加载或卸载子关卡，适用于开放世界或大型场景。
 
@@ -968,44 +898,34 @@ C -->|全局输入| F[暂停/截图等]
 - **优点**：优化内存占用，支持无缝探索。
     
 - **缺点**：需合理规划关卡分割，调试复杂度较高。
-    
-
-  
 
 ---
 
-  
+## **4. 子关卡（Sublevels）与地理定位**
 
-### **4. 子关卡（Sublevels）与地理定位**
-
-结合地理数据（如Cesium插件）实现基于位置的关卡切换，适用于地球规模或真实地理场景。
+结合地理数据（如 Cesium 插件）实现基于位置的关卡切换，适用于地球规模或真实地理场景。
 
 - **实现步骤**：
     
     - **创建地理标记（GeoMarker）**：使用 `CesiumGlobeAnchor` 组件绑定经纬度坐标。
         
-    - **UI交互触发**：通过按钮点击事件切换关联的子关卡。
+    - **UI 交互触发**：通过按钮点击事件切换关联的子关卡。
         
-    - **持久关卡管理**：确保核心逻辑（如UI、玩家状态）保留在持久关卡中。
+    - **持久关卡管理**：确保核心逻辑（如 UI、玩家状态）保留在持久关卡中。
         
 - **优点**：精准定位与动态加载结合，适合地图类应用。
     
 - **缺点**：依赖插件，需处理地理坐标对齐。
-    
-
-  
 
 ---
 
-  
-
-### **5. 数据持久化与GameInstance**
+## **5. 数据持久化与 GameInstance**
 
 跨关卡传递数据的关键方案，通过 `GameInstance` 类保存全局状态。
 
 - **实现步骤**：
     
-    - **自定义GameInstance**：继承 `UGameInstance`，定义需保存的变量（如角色属性、装备）。
+    - **自定义 GameInstance**：继承 `UGameInstance`，定义需保存的变量（如角色属性、装备）。
         
     - **项目设置绑定**：在项目设置中指定自定义的 `GameInstance` 类。
         
@@ -1014,41 +934,27 @@ C -->|全局输入| F[暂停/截图等]
 - **优点**：简单高效，适合中小型项目。
     
 - **缺点**：不适用于高频数据更新。
-    
-
-  
 
 ---
 
-  
-
-### **6. 混合方案与最佳实践**
+## **6. 混合方案与最佳实践**
 
 - **开放世界**：优先使用 **关卡流送** 动态加载地形和场景片段。
     
 - **剧情驱动游戏**：结合 **无缝切换** 和 **GameInstance** 保留玩家进度。
     
 - **多人在线游戏**：通过 `ServerTravel` 和 `Seamless Travel` 同步服务器与客户端状态。
-    
-
-  
 
 ---
 
-  
+## **总结**
 
-### **总结**
-
-UE5的关卡转换实现方式多样，核心选择依据包括：
+UE5 的关卡转换实现方式多样，核心选择依据包括：
 
 1. **项目规模**：小型项目可用基础切换，大型项目需流送或无缝切换。
     
 2. **数据需求**：需保留数据时选择 `GameInstance` 或无缝切换。
     
 3. **性能优化**：流送技术适合开放世界，避免内存过载。
-    
 
-  
-
-开发者可参考官方文档和示例（如搜索结果中的蓝图代码和C++实现），结合具体需求选择最适配的方案。
-
+开发者可参考官方文档和示例（如搜索结果中的蓝图代码和 C++ 实现），结合具体需求选择最适配的方案。

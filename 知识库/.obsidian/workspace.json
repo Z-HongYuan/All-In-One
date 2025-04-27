@@ -6,7 +6,7 @@
       {
         "id": "903019def5dc3c67",
         "type": "tabs",
-        "dimension": 42.015646571560055,
+        "dimension": 41.33510167992927,
         "children": [
           {
             "id": "15b13d4bd5f9f79e",
@@ -14,12 +14,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
+                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
                 "mode": "source",
-                "source": true
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "⭐GAS中文文档"
+              "title": "Common UI 基础使用"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -28,7 +38,7 @@
       {
         "id": "1eee5221e711dab5",
         "type": "tabs",
-        "dimension": 14.219972388403129,
+        "dimension": 14.898320070733865,
         "children": [
           {
             "id": "485c70dd2707da94",
@@ -36,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
+                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐GAS中文文档 的大纲"
+              "title": "Common UI 基础使用 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -51,7 +61,7 @@
       {
         "id": "951cbad238e37ff4",
         "type": "tabs",
-        "dimension": 43.76438104003682,
+        "dimension": 43.76657824933686,
         "children": [
           {
             "id": "7364f23794011853",
@@ -59,12 +69,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
+                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "⭐GAS中文文档"
+              "title": "Common UI 基础使用"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -125,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 253.5
   },
   "right": {
     "id": "4e5de1c47e58c43c",
@@ -182,36 +202,19 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
-          {
-            "id": "cff97b9cae7dcf9f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "2e9d697b160cb3d2",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -219,18 +222,32 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "audio-recorder:开始/结束录音": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "cff97b9cae7dcf9f",
+  "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "Unreal Engine/⭐UE ReadMe Origin.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/⭐GAS中文文档.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Task.md",
+    "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173654.png",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173306.png",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427112318.png",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427113341.png",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427114801.png",
+    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427114639.png",
+    "Unreal Engine/插件/Common UI/attachments",
+    "Unreal Engine/插件/Common UI",
+    "计算机基础/未命名.md",
+    "计算机图形学/未命名.md",
     "Genshin Elemental Warfare/⭐Genshin Origin.md",
-    "Unreal Engine/插件/Chaos载具插件/Chaos 载具插件.md",
+    "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
+    "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+    "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
+    "Unreal Engine/动画/Motion Matching (运动匹配).md",
+    "Unreal Engine/动画/ALS 动画系统.md",
+    "Unreal Engine/⭐UE ReadMe Origin.md",
+    "Unreal Engine/插件/Gameplay Ability System/Ability.md",
+    "Unreal Engine/插件/Gameplay Ability System/Task.md",
+    "Unreal Engine/插件/Chaos Vehicle/Chaos 载具插件.md",
     "Unreal Engine/渲染/三渲二(旧).md",
     "Unreal Engine/渲染/三渲二.md",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104818.png",
@@ -247,11 +264,7 @@
     "Unreal Engine/用户界面/Common UI Plugin.md",
     "Unreal Engine/用户界面/模块化和可扩展性UI系统.md",
     "Unreal Engine/用户界面/多语言 本地化.md",
-    "Unreal Engine/动画/ALS 动画系统.md",
-    "Unreal Engine/动画/Motion Matching (运动匹配).md",
     "Unreal Engine/动画/UE 动画.md",
-    "Unreal Engine/动画/attachments/Pasted image 20250426105345.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250426105342.png",
     "Unreal Engine/动画/attachments",
     "Unreal Engine/关卡切换/关卡切换.md",
     "Unreal Engine/插件",
@@ -260,19 +273,7 @@
     "Unreal Engine/渲染/attachments/PPMM_Outlines_CH.uasset",
     "Unreal Engine/渲染/attachments/PPMM_Light.uasset",
     "Unreal Engine/渲染/attachments/PPMM_Outlines.uasset",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104824.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104815.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104812.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104803.png",
-    "Unreal Engine/渲染/attachments",
-    "Unreal Engine/插件/Gameplay Camera 游戏摄像机/Gameplay Camera.md",
-    "Unreal Engine/渲染",
-    "Unreal Engine/插件/Gameplay Camera 游戏摄像机/UE摄像机.md",
-    "Unreal Engine/插件/Online Subsystem在线系统/Online Subsystem.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Gameplay Tag.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Gameplay Cue.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Attribute.md",
-    "Unreal Engine/插件/Gameplay Ability System Plugin/Effect.md",
+    "Unreal Engine/插件/Gameplay Camera/Gameplay Camera.md",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
   ]
 }

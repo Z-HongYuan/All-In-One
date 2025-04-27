@@ -2,10 +2,10 @@
   "editor:toggle-code": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "C"
+      "key": "E"
     }
-  ]
+  ],
+  "markdown:toggle-preview": []
 }
