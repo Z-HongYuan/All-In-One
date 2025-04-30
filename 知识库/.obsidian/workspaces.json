@@ -207,7 +207,205 @@
       },
       "active": "7364f23794011853",
       "mtime": "2025-04-26T00:17:26+08:00"
+    },
+    "阅读文本": {
+      "main": {
+        "id": "aa396bf8f6d90a10",
+        "type": "split",
+        "children": [
+          {
+            "id": "124ced9b234de122",
+            "type": "tabs",
+            "dimension": 19.80548187444739,
+            "children": [
+              {
+                "id": "9ab34ada6618fcd0",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "学习计划.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "学习计划 的大纲"
+                },
+                "group": "dfd5f029fa8c47d0"
+              }
+            ]
+          },
+          {
+            "id": "1ee0b90cacfae2eb",
+            "type": "tabs",
+            "dimension": 80.1945181255526,
+            "children": [
+              {
+                "id": "41d3583cfbe7510e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "学习计划.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "学习计划"
+                },
+                "group": "dfd5f029fa8c47d0"
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "840fbf2af958504a",
+        "type": "split",
+        "children": [
+          {
+            "id": "47acef28fbe72a42",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5582b7498fc76a01",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "73f1c0932beeb207",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "2eb8d0e7ce0e06eb",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 253.5
+      },
+      "right": {
+        "id": "4e5de1c47e58c43c",
+        "type": "split",
+        "children": [
+          {
+            "id": "fefad28712b74867",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fb402cd5b02e0938",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "⭐Lyra Start Game Origin 的反向链接列表"
+                }
+              },
+              {
+                "id": "d1bf13b7f1ecd006",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "⭐Lyra Start Game Origin 的出链列表"
+                }
+              },
+              {
+                "id": "95867dfb1216afbe",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 345.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-git:Open Git source control": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "audio-recorder:开始/结束录音": false
+        }
+      },
+      "active": "41d3583cfbe7510e",
+      "mtime": "2025-05-01T01:54:30+08:00"
     }
   },
-  "active": "编辑文本"
+  "active": "阅读文本"
 }

@@ -4,72 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "903019def5dc3c67",
+        "id": "124ced9b234de122",
         "type": "tabs",
-        "dimension": 41.33510167992927,
+        "dimension": 19.80548187444739,
         "children": [
           {
-            "id": "15b13d4bd5f9f79e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Common UI 基础使用"
-            },
-            "group": "b9c49d15e71dd437"
-          }
-        ]
-      },
-      {
-        "id": "1eee5221e711dab5",
-        "type": "tabs",
-        "dimension": 14.898320070733865,
-        "children": [
-          {
-            "id": "485c70dd2707da94",
+            "id": "9ab34ada6618fcd0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
-                "followCursor": false,
+                "file": "学习计划.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Common UI 基础使用 的大纲"
+              "title": "学习计划 的大纲"
             },
-            "group": "b9c49d15e71dd437"
+            "group": "dfd5f029fa8c47d0"
           }
         ]
       },
       {
-        "id": "951cbad238e37ff4",
+        "id": "1ee0b90cacfae2eb",
         "type": "tabs",
-        "dimension": 43.76657824933686,
+        "dimension": 80.1945181255526,
         "children": [
           {
-            "id": "7364f23794011853",
+            "id": "41d3583cfbe7510e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
+                "file": "学习计划.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,9 +52,9 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common UI 基础使用"
+              "title": "学习计划"
             },
-            "group": "b9c49d15e71dd437"
+            "group": "dfd5f029fa8c47d0"
           }
         ]
       }
@@ -225,9 +193,31 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "15b13d4bd5f9f79e",
+  "active": "9ab34ada6618fcd0",
   "lastOpenFiles": [
+    "学习计划.md",
+    "2025-05-01.md",
+    "计算机基础/C && C++/C 语言.md",
+    "计算机基础/C && C++/C++ 语言.md",
+    "计算机基础/C && C++/attachments/Pasted image 20250430235917.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250430235835.png",
+    "计算机基础/C && C++/attachments",
+    "Unreal Engine/程序/组件 接口 抽象类.md",
+    "计算机基础/C && C++",
+    "Unreal Engine/插件/Online Subsystem/Online Subsystem.md",
+    "Unreal Engine/插件/Gameplay Camera/UE摄像机.md",
+    "Unreal Engine/插件/Gameplay Camera/Gameplay Camera.md",
     "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
+    "Unreal Engine/插件/Chaos Vehicle/Chaos 基础使用教程.md",
+    "Unreal Engine/用户界面/Common UI Plugin.md",
+    "Unreal Engine/插件/Gameplay Ability System/Effect.md",
+    "Unreal Engine/渲染/三渲二.md",
+    "Genshin Elemental Warfare/⭐Genshin Origin.md",
+    "Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
+    "Genshin Elemental Warfare/UI/Menu/Settings/未命名.md",
+    "Genshin Elemental Warfare/UI/Menu/Settings",
+    "Genshin Elemental Warfare/UI/Menu",
+    "Genshin Elemental Warfare/UI",
     "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173654.png",
     "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173306.png",
     "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427112318.png",
@@ -238,7 +228,6 @@
     "Unreal Engine/插件/Common UI",
     "计算机基础/未命名.md",
     "计算机图形学/未命名.md",
-    "Genshin Elemental Warfare/⭐Genshin Origin.md",
     "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
     "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
@@ -247,33 +236,13 @@
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine/插件/Gameplay Ability System/Ability.md",
     "Unreal Engine/插件/Gameplay Ability System/Task.md",
-    "Unreal Engine/插件/Chaos Vehicle/Chaos 载具插件.md",
-    "Unreal Engine/渲染/三渲二(旧).md",
-    "Unreal Engine/渲染/三渲二.md",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104818.png",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104807.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104037.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104025.png",
-    "Genshin Elemental Warfare/未命名",
-    "Blender/Blender Script 脚本.md",
-    "Blender/⭐Blender Learn 学习.md",
-    "C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
-    "Unreal Engine/用户界面/UMG View Modal Plugin.md",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
-    "Unreal Engine/用户界面/Common UI Plugin.md",
-    "Unreal Engine/用户界面/模块化和可扩展性UI系统.md",
-    "Unreal Engine/用户界面/多语言 本地化.md",
-    "Unreal Engine/动画/UE 动画.md",
     "Unreal Engine/动画/attachments",
-    "Unreal Engine/关卡切换/关卡切换.md",
     "Unreal Engine/插件",
     "Unreal Engine/动画",
-    "Unreal Engine/关卡切换",
-    "Unreal Engine/渲染/attachments/PPMM_Outlines_CH.uasset",
-    "Unreal Engine/渲染/attachments/PPMM_Light.uasset",
-    "Unreal Engine/渲染/attachments/PPMM_Outlines.uasset",
-    "Unreal Engine/插件/Gameplay Camera/Gameplay Camera.md",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
   ]
 }

@@ -1,5 +1,7 @@
 # Common UI 基础使用
 
+[[Common UI Plugin]]
+
 > [!info] 文档相关
 > Common UI 最基础的使用教程, 包括配置输入, Common UI 控件介绍, Common UI 堆栈/队列使用
 
