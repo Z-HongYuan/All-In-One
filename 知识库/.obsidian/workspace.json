@@ -16,6 +16,7 @@
               "state": {
                 "file": "计算机基础/C && C++/C 语言.md",
                 "mode": "source",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
