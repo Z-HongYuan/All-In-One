@@ -4,40 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "124ced9b234de122",
+        "id": "903019def5dc3c67",
         "type": "tabs",
-        "dimension": 19.80548187444739,
+        "dimension": 41.33510167992927,
         "children": [
           {
-            "id": "9ab34ada6618fcd0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "学习计划.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "学习计划 的大纲"
-            },
-            "group": "dfd5f029fa8c47d0"
-          }
-        ]
-      },
-      {
-        "id": "1ee0b90cacfae2eb",
-        "type": "tabs",
-        "dimension": 80.1945181255526,
-        "children": [
-          {
-            "id": "41d3583cfbe7510e",
+            "id": "15b13d4bd5f9f79e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习计划.md",
+                "file": "计算机基础/C && C++/C 语言.md",
+                "mode": "source",
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C 语言"
+            },
+            "group": "b9c49d15e71dd437"
+          }
+        ]
+      },
+      {
+        "id": "1eee5221e711dab5",
+        "type": "tabs",
+        "dimension": 14.898320070733865,
+        "children": [
+          {
+            "id": "485c70dd2707da94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计算机基础/C && C++/C 语言.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "C 语言 的大纲"
+            },
+            "group": "b9c49d15e71dd437"
+          }
+        ]
+      },
+      {
+        "id": "951cbad238e37ff4",
+        "type": "tabs",
+        "dimension": 43.76657824933686,
+        "children": [
+          {
+            "id": "7364f23794011853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机基础/C && C++/C 语言.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,9 +83,9 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "学习计划"
+              "title": "C 语言"
             },
-            "group": "dfd5f029fa8c47d0"
+            "group": "b9c49d15e71dd437"
           }
         ]
       }
@@ -193,11 +224,19 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "9ab34ada6618fcd0",
+  "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "学习计划.md",
-    "2025-05-01.md",
+    "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/C && C++/C 语言.md",
+    "计算机基础/数据结构&&算法/数据结构.md",
+    "计算机基础/设计模式.md",
+    "计算机基础/数据结构&&算法",
+    "Unreal Engine/⭐UE ReadMe Origin.md",
+    "⭐一天的 TODO.md",
+    "⭐学习计划.md",
+    "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
+    "Unreal Engine/教程",
+    "2025-05-01.md",
     "计算机基础/C && C++/C++ 语言.md",
     "计算机基础/C && C++/attachments/Pasted image 20250430235917.png",
     "计算机基础/C && C++/attachments/Pasted image 20250430235835.png",
@@ -226,23 +265,15 @@
     "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427114639.png",
     "Unreal Engine/插件/Common UI/attachments",
     "Unreal Engine/插件/Common UI",
-    "计算机基础/未命名.md",
     "计算机图形学/未命名.md",
     "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
     "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
     "Unreal Engine/动画/Motion Matching (运动匹配).md",
-    "Unreal Engine/动画/ALS 动画系统.md",
-    "Unreal Engine/⭐UE ReadMe Origin.md",
-    "Unreal Engine/插件/Gameplay Ability System/Ability.md",
-    "Unreal Engine/插件/Gameplay Ability System/Task.md",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104818.png",
     "Unreal Engine/渲染/attachments/Pasted image 20250426104807.png",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
-    "Unreal Engine/动画/attachments",
-    "Unreal Engine/插件",
-    "Unreal Engine/动画",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
   ]
 }
