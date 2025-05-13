@@ -1,4 +1,7 @@
-#### 显示所有骨骼
+# Blender Script 脚本
+
+## 显示所有骨骼
+
 ```python
 import bpy
 def show_all_bones():
@@ -18,7 +21,8 @@ def show_all_bones():
 show_all_bones()
 ```
 
-#### 移除所有骨骼约束
+## 移除所有骨骼约束
+
 ```python
 import bpy
 def remove_all_bone_constraints():
@@ -43,7 +47,8 @@ def remove_all_bone_constraints():
 # 调用函数
 remove_all_bone_constraints()
 ```
-#### 解锁所有骨骼的旋转
+
+## 解锁所有骨骼的旋转
 
 ```python
 import bpy
@@ -69,9 +74,9 @@ def unlock_all_bone_transforms():
 unlock_all_bone_transforms()
 ```
 
-#### 删除所有没有网格体权重的骨骼
+## 删除所有没有网格体权重的骨骼
 
-用于移除Rigik
+用于移除 Rigik
 
 ```python
 
@@ -125,7 +130,7 @@ def delete_bones_without_weight():
 delete_bones_without_weight()
 ```
 
-#### 重置骨骼的Roll
+## 重置骨骼的 Roll
 
 ```python
 import bpy
@@ -149,7 +154,7 @@ def zero_out_bone_roll():
 zero_out_bone_roll()
 ```
 
-#### 移除所有无效的线条
+## 移除所有无效的线条
 
 ```python
 

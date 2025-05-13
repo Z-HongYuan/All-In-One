@@ -1,29 +1,24 @@
 GameplayTag(游戏标签)
 
-  
+一种用于标记, 快速查询, 便于复制的层级标签
 
-一种用于标记,快速查询,便于复制的层级标签
+# 在编辑器内添加 GameplayTag
 
-# 在编辑器内添加GameplayTag
+在项目设置的 GameplayTag 栏目添加设置 Tag
 
-在项目设置的GameplayTag栏目添加设置Tag
+也可在 ini 文件中自定义 Tag
 
-也可在ini文件中自定义Tag
+# 在 Cpp 中创建 GameplayTag
 
-  
-
-# 在Cpp中创建GameplayTag
-
-1. 创建空Cpp类
+1. 创建空 Cpp 类
     
-2. 在空Cpp类里面创建所需Tag
+2. 在空 Cpp 类里面创建所需 Tag
     
-3. 注册到资产管理器内(AssetManager)(需要自己自定义,全局唯一单例)
-    
+3. 注册到资产管理器内 (AssetManager)(需要自己自定义, 全局唯一单例)
 
 ---
 
-GameplayTags类
+GameplayTags 类
 
 ```c++
 // Copyright © 2025 鸿源z 保留所有权利
@@ -35,7 +30,7 @@ GameplayTags类
 
 /**
  * GenshinGameplayTags
- * 单例,全局唯一
+ * 单例, 全局唯一
  * 在Cpp中的所有游戏标签都应该在这里注册
  * 包含原生GameplayTags
  */
@@ -69,7 +64,7 @@ FGenshinGameplayTags FGenshinGameplayTags::GameplayTags;
 
 void FGenshinGameplayTags::InitializeNativeGameplayTags()
 {
-    //保存一个变量,可以在Cpp中引用的添加
+    //保存一个变量, 可以在Cpp中引用的添加
     GameplayTags.Tag_GameplayAbility_ActivateFail_IsDead = UGameplayTagsManager::Get().AddNativeGameplayTag(
        FName("GameplayAbility.ActivateFail.IsDead"),
        TEXT("死亡")
@@ -82,7 +77,7 @@ void FGenshinGameplayTags::InitializeNativeGameplayTags()
 
 ---
 
-资产管理器AssetManager
+资产管理器 AssetManager
 
 ```c++
 // Copyright © 2025 鸿源z 保留所有权利
@@ -95,7 +90,7 @@ void FGenshinGameplayTags::InitializeNativeGameplayTags()
 
 /**
  * 资产管理器
- * 单例,全局唯一
+ * 单例, 全局唯一
  * 
  */
 UCLASS()
@@ -108,7 +103,7 @@ public:
 
 protected:
 
-    //注册资产,Tag资产
+    //注册资产, Tag资产
     virtual void StartInitialLoading() override;
 };
 ```

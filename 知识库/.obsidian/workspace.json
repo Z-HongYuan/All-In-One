@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础/数据结构&&算法/数据结构.md",
+                "file": "计算机基础/数据结构&&算法/算法.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "数据结构"
+              "title": "算法"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机基础/数据结构&&算法/数据结构.md",
+                "file": "计算机基础/数据结构&&算法/算法.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数据结构 的大纲"
+              "title": "算法 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础/数据结构&&算法/数据结构.md",
+                "file": "计算机基础/数据结构&&算法/算法.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "数据结构"
+              "title": "算法"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -108,7 +108,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+                "file": "计算机基础/数据结构&&算法/算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "⭐Lyra Start Game Origin 的反向链接列表"
+              "title": "算法 的反向链接列表"
             }
           },
           {
@@ -180,12 +180,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+                "file": "计算机基础/数据结构&&算法/算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "⭐Lyra Start Game Origin 的出链列表"
+              "title": "算法 的出链列表"
             }
           },
           {
@@ -208,8 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,12 +226,36 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "计算机基础/设计模式.md",
-    "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/数据结构&&算法/数据结构.md",
-    "计算机基础/C && C++/联想拓展.md",
+    "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/C && C++/C 语言.md",
     "计算机基础/C && C++/C++ 语言.md",
+    "Blender/Blender Script 脚本.md",
+    "⭐学习计划.md",
+    "计算机基础/C && C++/联想拓展.md",
+    "Blender/⭐Blender Learn 学习.md",
+    "计算机基础/设计模式.md",
+    "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
+    "Genshin Elemental Warfare/⭐Genshin Origin.md",
+    "C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
+    "Ready Player One/⭐Ready Player One.md",
+    "Unreal Engine/⭐UE ReadMe Origin.md",
+    "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
+    "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
+    "Unreal Engine/Begin Play/World Building 世界构建.md",
+    "Unreal Engine/Begin Play/UMG 用户界面.md",
+    "Unreal Engine/Begin Play/Rendering 渲染.md",
+    "Unreal Engine/Begin Play/Programming 编程.md",
+    "Unreal Engine/Begin Play/Niagara 特效.md",
+    "Unreal Engine/Begin Play/Gameplay 游戏机制.md",
+    "Unreal Engine/Begin Play/Engine Structure 引擎架构.md",
+    "Unreal Engine/Begin Play/Blueprints 蓝图.md",
+    "Unreal Engine/Begin Play/Audio 音效.md",
+    "Unreal Engine/Begin Play/Animation 动画.md",
+    "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
+    "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
+    "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
+    "计算机基础/数据结构&&算法/attachments",
     "计算机基础/C && C++/attachments/Pasted image 20250513155134.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513155034.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513155030.png",
@@ -240,39 +263,15 @@
     "计算机基础/C && C++/attachments/Pasted image 20250513153637.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513152035.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513151343.png",
-    "计算机基础/C && C++/attachments/Pasted image 20250513151157.png",
-    "计算机基础/C && C++/attachments/Pasted image 20250513151139.png",
-    "计算机基础/C && C++/attachments/Pasted image 20250513150914.png",
-    "⭐学习计划.md",
-    "Ready Player One/⭐Ready Player One.md",
     "Ready Player One",
     "计算机基础/数据结构&&算法",
-    "Unreal Engine/⭐UE ReadMe Origin.md",
-    "⭐一天的 TODO.md",
     "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
     "Unreal Engine/教程",
-    "2025-05-01.md",
     "计算机基础/C && C++/attachments",
-    "Unreal Engine/程序/组件 接口 抽象类.md",
     "计算机基础/C && C++",
-    "Unreal Engine/插件/Online Subsystem/Online Subsystem.md",
-    "Unreal Engine/插件/Gameplay Camera/UE摄像机.md",
-    "Unreal Engine/插件/Gameplay Camera/Gameplay Camera.md",
-    "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
-    "Unreal Engine/插件/Chaos Vehicle/Chaos 基础使用教程.md",
-    "Unreal Engine/用户界面/Common UI Plugin.md",
-    "Unreal Engine/插件/Gameplay Ability System/Effect.md",
-    "Unreal Engine/渲染/三渲二.md",
-    "Genshin Elemental Warfare/⭐Genshin Origin.md",
-    "Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
-    "Genshin Elemental Warfare/UI/Menu/Settings/未命名.md",
     "Genshin Elemental Warfare/UI/Menu/Settings",
     "Genshin Elemental Warfare/UI/Menu",
     "Genshin Elemental Warfare/UI",
-    "Unreal Engine/插件/Common UI/attachments",
-    "计算机图形学/未命名.md",
-    "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
-    "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
