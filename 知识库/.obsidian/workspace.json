@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础/C && C++/C 语言.md",
+                "file": "计算机基础/数据结构&&算法/数据结构.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C 语言"
+              "title": "数据结构"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机基础/C && C++/C 语言.md",
-                "followCursor": false,
+                "file": "计算机基础/数据结构&&算法/数据结构.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C 语言 的大纲"
+              "title": "数据结构 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础/C && C++/C 语言.md",
+                "file": "计算机基础/数据结构&&算法/数据结构.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C 语言"
+              "title": "数据结构"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -227,20 +227,31 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "计算机基础/数据结构&&算法/算法.md",
-    "计算机基础/C && C++/C 语言.md",
-    "计算机基础/数据结构&&算法/数据结构.md",
     "计算机基础/设计模式.md",
+    "计算机基础/数据结构&&算法/算法.md",
+    "计算机基础/数据结构&&算法/数据结构.md",
+    "计算机基础/C && C++/联想拓展.md",
+    "计算机基础/C && C++/C 语言.md",
+    "计算机基础/C && C++/C++ 语言.md",
+    "计算机基础/C && C++/attachments/Pasted image 20250513155134.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513155034.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513155030.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513153723.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513153637.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513152035.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513151343.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513151157.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513151139.png",
+    "计算机基础/C && C++/attachments/Pasted image 20250513150914.png",
+    "⭐学习计划.md",
+    "Ready Player One/⭐Ready Player One.md",
+    "Ready Player One",
     "计算机基础/数据结构&&算法",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "⭐一天的 TODO.md",
-    "⭐学习计划.md",
     "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
     "Unreal Engine/教程",
     "2025-05-01.md",
-    "计算机基础/C && C++/C++ 语言.md",
-    "计算机基础/C && C++/attachments/Pasted image 20250430235917.png",
-    "计算机基础/C && C++/attachments/Pasted image 20250430235835.png",
     "计算机基础/C && C++/attachments",
     "Unreal Engine/程序/组件 接口 抽象类.md",
     "计算机基础/C && C++",
@@ -258,21 +269,10 @@
     "Genshin Elemental Warfare/UI/Menu/Settings",
     "Genshin Elemental Warfare/UI/Menu",
     "Genshin Elemental Warfare/UI",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173654.png",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427173306.png",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427112318.png",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427113341.png",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427114801.png",
-    "Unreal Engine/插件/Common UI/attachments/Pasted image 20250427114639.png",
     "Unreal Engine/插件/Common UI/attachments",
-    "Unreal Engine/插件/Common UI",
     "计算机图形学/未命名.md",
     "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
-    "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
-    "Unreal Engine/动画/Motion Matching (运动匹配).md",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104818.png",
-    "Unreal Engine/渲染/attachments/Pasted image 20250426104807.png",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
