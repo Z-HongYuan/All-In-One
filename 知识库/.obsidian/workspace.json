@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/程序/UE 指针.md",
+                "file": "One/⭐One.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UE 指针"
+              "title": "⭐One"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/程序/UE 指针.md",
+                "file": "One/⭐One.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE 指针 的大纲"
+              "title": "⭐One 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/程序/UE 指针.md",
+                "file": "One/⭐One.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UE 指针"
+              "title": "⭐One"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -224,8 +224,9 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "15b13d4bd5f9f79e",
+  "active": "5582b7498fc76a01",
   "lastOpenFiles": [
+    "Unreal Engine/程序/UE 指针.md",
     "⭐学习计划.md",
     "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/数据结构&&算法/数据结构.md",
@@ -238,7 +239,7 @@
     "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
     "Genshin Elemental Warfare/⭐Genshin Origin.md",
     "C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
-    "Ready Player One/⭐Ready Player One.md",
+    "One/⭐One.md",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
@@ -251,7 +252,6 @@
     "Unreal Engine/Begin Play/Engine Structure 引擎架构.md",
     "Unreal Engine/Begin Play/Blueprints 蓝图.md",
     "Unreal Engine/Begin Play/Audio 音效.md",
-    "Unreal Engine/Begin Play/Animation 动画.md",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
@@ -263,7 +263,7 @@
     "计算机基础/C && C++/attachments/Pasted image 20250513153637.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513152035.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513151343.png",
-    "Ready Player One",
+    "One",
     "计算机基础/数据结构&&算法",
     "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
     "Unreal Engine/教程",
