@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "One/每日流程里程碑.md",
+                "file": "Unreal Engine/⭐UE ReadMe Origin.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "每日流程里程碑"
+              "title": "⭐UE ReadMe Origin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "One/每日流程里程碑.md",
+                "file": "Unreal Engine/⭐UE ReadMe Origin.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每日流程里程碑 的大纲"
+              "title": "⭐UE ReadMe Origin 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "One/每日流程里程碑.md",
+                "file": "Unreal Engine/⭐UE ReadMe Origin.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "每日流程里程碑"
+              "title": "⭐UE ReadMe Origin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -224,12 +224,14 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "15b13d4bd5f9f79e",
+  "active": "5582b7498fc76a01",
   "lastOpenFiles": [
-    "One/⭐One 调研.md",
-    "One/每日流程里程碑.md",
-    "One/未命名",
+    "My Project",
+    "Unreal Engine 教程",
     "⭐学习计划.md",
+    "My Project/One/每日流程里程碑.md",
+    "My Project/One/⭐One 调研.md",
+    "One/未命名",
     "Unreal Engine/程序/UE 指针.md",
     "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/数据结构&&算法/数据结构.md",
@@ -240,8 +242,8 @@
     "Blender/⭐Blender Learn 学习.md",
     "计算机基础/设计模式.md",
     "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
-    "Genshin Elemental Warfare/⭐Genshin Origin.md",
-    "C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
+    "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
+    "Unreal Engine 教程/C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
@@ -252,7 +254,6 @@
     "Unreal Engine/Begin Play/Niagara 特效.md",
     "Unreal Engine/Begin Play/Gameplay 游戏机制.md",
     "Unreal Engine/Begin Play/Engine Structure 引擎架构.md",
-    "Unreal Engine/Begin Play/Blueprints 蓝图.md",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
@@ -264,14 +265,13 @@
     "计算机基础/C && C++/attachments/Pasted image 20250513153637.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513152035.png",
     "计算机基础/C && C++/attachments/Pasted image 20250513151343.png",
-    "One",
+    "My Project/One",
     "计算机基础/数据结构&&算法",
     "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
     "Unreal Engine/教程",
     "计算机基础/C && C++/attachments",
     "计算机基础/C && C++",
-    "Genshin Elemental Warfare/UI/Menu/Settings",
-    "Genshin Elemental Warfare/UI/Menu",
+    "My Project/Genshin Elemental Warfare/UI/Menu/Settings",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
