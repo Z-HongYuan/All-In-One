@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/程序/组件 接口 抽象类.md",
+                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "组件 接口 抽象类"
+              "title": "Level Editor"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/程序/组件 接口 抽象类.md",
+                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "组件 接口 抽象类 的大纲"
+              "title": "Level Editor 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/程序/组件 接口 抽象类.md",
+                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "组件 接口 抽象类"
+              "title": "Level Editor"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -224,23 +224,29 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "5582b7498fc76a01",
+  "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
+    "Unreal Engine 教程/初学者教程/Getting Start.md",
+    "Unreal Engine 教程/初学者教程/Level Editor.md",
+    "Unreal Engine 教程/初学者教程/初学者教程.md",
+    "Unreal Engine 教程/专用服务器/使用 AWS 和 GameLift 的专用服务器.md",
+    "Unreal Engine 教程/初学者教程",
+    "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
+    "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
+    "My Project/One/每日流程里程碑.md",
+    "⭐学习计划.md",
+    "My Project/One/⭐One 调研.md",
+    "Unreal Engine/程序/组件 接口 抽象类.md",
     "Unreal Engine/程序/UE 指针.md",
     "Unreal Engine/程序/UE 蓝图.md",
     "Unreal Engine/程序/attachments/Pasted image 20250516154935.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516154254.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516151320.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516150643.png",
-    "Unreal Engine/程序/组件 接口 抽象类.md",
-    "Unreal Engine 教程/专用服务器/使用 AWS 和 GameLift 的专用服务器.md",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine 教程/专用服务器",
     "My Project",
     "Unreal Engine 教程",
-    "⭐学习计划.md",
-    "My Project/One/每日流程里程碑.md",
-    "My Project/One/⭐One 调研.md",
     "One/未命名",
     "计算机基础/数据结构&&算法/算法.md",
     "计算机基础/数据结构&&算法/数据结构.md",
@@ -251,14 +257,10 @@
     "Blender/⭐Blender Learn 学习.md",
     "计算机基础/设计模式.md",
     "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
-    "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
     "Unreal Engine 教程/C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
-    "Unreal Engine/Lyra Start Game/Lyra Animation System 动画系统.md",
-    "Unreal Engine/Lyra Start Game/⭐Lyra Start Game Origin.md",
-    "Unreal Engine/Begin Play/World Building 世界构建.md",
-    "Unreal Engine/Begin Play/UMG 用户界面.md",
-    "Unreal Engine/Begin Play/Rendering 渲染.md",
-    "Unreal Engine/Begin Play/Programming 编程.md",
+    "Unreal Engine 教程/Lyra Start Game/Lyra Animation System 动画系统.md",
+    "Unreal Engine 教程/Lyra Start Game/⭐Lyra Start Game Origin.md",
+    "Unreal Engine 教程/Begin Play/World Building 世界构建.md",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
@@ -270,7 +272,6 @@
     "计算机基础/数据结构&&算法",
     "Unreal Engine/教程/Unreal Engine 5：完整的初学者课程",
     "Unreal Engine/教程",
-    "计算机基础/C && C++/attachments",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
