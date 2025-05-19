@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
+                "file": "Unreal Engine 教程/初学者教程/Actors.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Level Editor"
+              "title": "Actors"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
+                "file": "Unreal Engine 教程/初学者教程/Actors.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Level Editor 的大纲"
+              "title": "Actors 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/Level Editor.md",
+                "file": "Unreal Engine 教程/初学者教程/Actors.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Level Editor"
+              "title": "Actors"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -228,6 +228,7 @@
   "lastOpenFiles": [
     "Unreal Engine 教程/初学者教程/Getting Start.md",
     "Unreal Engine 教程/初学者教程/Level Editor.md",
+    "Unreal Engine 教程/初学者教程/Actors.md",
     "Unreal Engine 教程/初学者教程/初学者教程.md",
     "Unreal Engine 教程/专用服务器/使用 AWS 和 GameLift 的专用服务器.md",
     "Unreal Engine 教程/初学者教程",
@@ -260,7 +261,6 @@
     "Unreal Engine 教程/C++ Shooter/Multiple Player Plugin/多人游戏插件(Multiple Player).md",
     "Unreal Engine 教程/Lyra Start Game/Lyra Animation System 动画系统.md",
     "Unreal Engine 教程/Lyra Start Game/⭐Lyra Start Game Origin.md",
-    "Unreal Engine 教程/Begin Play/World Building 世界构建.md",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
