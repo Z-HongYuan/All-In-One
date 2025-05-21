@@ -32,6 +32,30 @@
               "title": "⭐Begin Play Origin"
             },
             "group": "b9c49d15e71dd437"
+          },
+          {
+            "id": "55cf121320c2f199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3. Blueprints 蓝图"
+            }
           }
         ]
       },
@@ -226,10 +250,13 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
+    "Unreal Engine 教程/Begin Play/4. World Building 世界构建.md",
     "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
-    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
-    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
     "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
+    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250521174736.png",
+    "Unreal Engine 教程/Begin Play/未命名.md",
+    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
     "Unreal Engine 教程/Begin Play/Rendering 渲染.md",
     "Unreal Engine 教程/Begin Play/Niagara 特效.md",
     "Unreal Engine 教程/Begin Play/Gameplay 游戏机制.md",
@@ -255,8 +282,6 @@
     "Unreal Engine 教程/专用服务器/使用 AWS 和 GameLift 的专用服务器.md",
     "Unreal Engine 教程/初学者教程",
     "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
-    "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
-    "⭐学习计划.md",
     "Unreal Engine/程序/attachments/Pasted image 20250516154935.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516154254.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516151320.png",
@@ -269,7 +294,6 @@
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
     "计算机基础/数据结构&&算法/attachments",
-    "计算机基础/C && C++/attachments/Pasted image 20250513155134.png",
     "My Project/One",
     "计算机基础/数据结构&&算法",
     "未命名.canvas",
