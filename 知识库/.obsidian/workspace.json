@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
+                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐初学者教程"
+              "title": "⭐Begin Play Origin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
+                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐初学者教程 的大纲"
+              "title": "⭐Begin Play Origin 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
+                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐初学者教程"
+              "title": "⭐Begin Play Origin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -226,13 +226,22 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
+    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
+    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
+    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
+    "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
+    "Unreal Engine 教程/Begin Play/Rendering 渲染.md",
+    "Unreal Engine 教程/Begin Play/Niagara 特效.md",
+    "Unreal Engine 教程/Begin Play/Gameplay 游戏机制.md",
+    "Unreal Engine 教程/Begin Play/Audio 音效.md",
+    "Unreal Engine 教程/Begin Play/Animation 动画.md",
+    "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
     "My Project/One/文件架构/Content文件夹架构.md",
     "My Project/One/文件架构/Source文件夹架构.md",
     "My Project/One/⭐One总结.md",
     "My Project/One/One 调研.md",
     "My Project/One/Project Setting.md",
     "My Project/One/文件架构",
-    "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
     "My Project/One/每日流程里程碑.md",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine 教程/初学者教程/Actors.md",
@@ -248,9 +257,6 @@
     "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
     "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
     "⭐学习计划.md",
-    "Unreal Engine/程序/组件 接口 抽象类.md",
-    "Unreal Engine/程序/UE 指针.md",
-    "Unreal Engine/程序/UE 蓝图.md",
     "Unreal Engine/程序/attachments/Pasted image 20250516154935.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516154254.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516151320.png",
@@ -259,11 +265,6 @@
     "My Project",
     "Unreal Engine 教程",
     "One/未命名",
-    "计算机基础/数据结构&&算法/算法.md",
-    "计算机基础/数据结构&&算法/数据结构.md",
-    "计算机基础/C && C++/C 语言.md",
-    "计算机基础/C && C++/C++ 语言.md",
-    "Blender/Blender Script 脚本.md",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
