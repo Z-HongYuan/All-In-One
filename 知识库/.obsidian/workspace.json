@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
+                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐Begin Play Origin"
+              "title": "6. Gameplay 游戏机制"
             },
             "group": "b9c49d15e71dd437"
           },
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
+                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐Begin Play Origin 的大纲"
+              "title": "6. Gameplay 游戏机制 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
+                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -108,7 +108,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐Begin Play Origin"
+              "title": "6. Gameplay 游戏机制"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -250,29 +250,29 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "Unreal Engine 教程/Begin Play/4. World Building 世界构建.md",
-    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
     "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
-    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
-    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250521174736.png",
-    "Unreal Engine 教程/Begin Play/未命名.md",
-    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
-    "Unreal Engine 教程/Begin Play/Rendering 渲染.md",
-    "Unreal Engine 教程/Begin Play/Niagara 特效.md",
-    "Unreal Engine 教程/Begin Play/Gameplay 游戏机制.md",
-    "Unreal Engine 教程/Begin Play/Audio 音效.md",
-    "Unreal Engine 教程/Begin Play/Animation 动画.md",
-    "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
+    "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
+    "Unreal Engine 教程/Begin Play/5. Rendering 渲染.md",
+    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
+    "Unreal Engine 教程/Begin Play/4. World Building 世界构建.md",
     "My Project/One/文件架构/Content文件夹架构.md",
     "My Project/One/文件架构/Source文件夹架构.md",
     "My Project/One/⭐One总结.md",
     "My Project/One/One 调研.md",
     "My Project/One/Project Setting.md",
+    "Unreal Engine 教程/初学者教程/Player & Input.md",
+    "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
+    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250521174736.png",
+    "Unreal Engine 教程/Begin Play/未命名.md",
+    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
+    "Unreal Engine 教程/Begin Play/Niagara 特效.md",
+    "Unreal Engine 教程/Begin Play/Audio 音效.md",
+    "Unreal Engine 教程/Begin Play/Animation 动画.md",
     "My Project/One/文件架构",
     "My Project/One/每日流程里程碑.md",
     "Unreal Engine/⭐UE ReadMe Origin.md",
     "Unreal Engine 教程/初学者教程/Actors.md",
-    "Unreal Engine 教程/初学者教程/Player & Input.md",
     "Unreal Engine 教程/初学者教程/Level Editor.md",
     "Unreal Engine 教程/初学者教程/Getting Start.md",
     "Unreal Engine 教程/初学者教程/Blueprints.md",

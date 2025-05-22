@@ -26,22 +26,22 @@
 [[3. Blueprints 蓝图]]
 从高层次上概述虚幻引擎中的 Blueprint 可视化脚本系统，并研究它在整个引擎中的实现和结构。
 
-## World Building(世界构建)~~√~~
+## World Building(世界构建)√
 
 [World Building](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/K6bcwWsfYixQjZkKiXilmry5gJe)
 [[4. World Building 世界构建]]
 从高层次上概述虚幻引擎 5 中的世界构建管道和资产创建工具，例如关卡的不同结构，包括用于创建景观，水和放置演员的工具。
 
-## Rendering(渲染)
+## Rendering(渲染)√
 
 [Rendering](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/PQmIwcCcSimaX5kbELalNnIRgog)
-[[Rendering 渲染]]
+[[5. Rendering 渲染]]
 从高层次上概述虚幻引擎 5 中的渲染管道，探索渲染管道的每个阶段，包括引擎如何决定渲染场景的内容和方式。
 
-## Gameplay(游戏玩法)
+## Gameplay(游戏玩法)~~√~~
 
 [Gameplay](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/MhSXwXw71i4jYlkBXDhl5zbmgCf)
-[[Gameplay 游戏机制]]
+[[6. Gameplay 游戏机制]]
 从高层次概述游戏框架结构，包括角色棋子、控制器和 HUD 集成等功能。
 
 ## Audio(音频)
