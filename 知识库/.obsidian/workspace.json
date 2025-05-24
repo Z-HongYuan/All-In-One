@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
+                "file": "Unreal Engine 教程/Begin Play/7. Audio 音频.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. Gameplay 游戏机制"
+              "title": "7. Audio 音频"
             },
             "group": "b9c49d15e71dd437"
           },
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
+                "file": "Unreal Engine 教程/Begin Play/7. Audio 音频.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "6. Gameplay 游戏机制 的大纲"
+              "title": "7. Audio 音频 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
+                "file": "Unreal Engine 教程/Begin Play/7. Audio 音频.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -108,7 +108,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. Gameplay 游戏机制"
+              "title": "7. Audio 音频"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -252,22 +252,23 @@
   "lastOpenFiles": [
     "Unreal Engine 教程/Begin Play/⭐Begin Play Origin.md",
     "Unreal Engine 教程/Begin Play/6. Gameplay 游戏机制.md",
-    "Unreal Engine 教程/Begin Play/5. Rendering 渲染.md",
-    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
-    "Unreal Engine 教程/Begin Play/4. World Building 世界构建.md",
-    "My Project/One/文件架构/Content文件夹架构.md",
+    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
+    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
     "My Project/One/文件架构/Source文件夹架构.md",
+    "My Project/One/文件架构/Content文件夹架构.md",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250523105203.png",
     "My Project/One/⭐One总结.md",
     "My Project/One/One 调研.md",
     "My Project/One/Project Setting.md",
+    "Unreal Engine 教程/Begin Play/5. Rendering 渲染.md",
+    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
+    "Unreal Engine 教程/Begin Play/4. World Building 世界构建.md",
     "Unreal Engine 教程/初学者教程/Player & Input.md",
     "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
-    "Unreal Engine 教程/Begin Play/2. Programming 编程.md",
     "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250521174736.png",
     "Unreal Engine 教程/Begin Play/未命名.md",
-    "Unreal Engine 教程/Begin Play/1. Engine Structure 引擎架构.md",
     "Unreal Engine 教程/Begin Play/Niagara 特效.md",
-    "Unreal Engine 教程/Begin Play/Audio 音效.md",
+    "Unreal Engine 教程/Begin Play/7. Audio 音频.md",
     "Unreal Engine 教程/Begin Play/Animation 动画.md",
     "My Project/One/文件架构",
     "My Project/One/每日流程里程碑.md",
@@ -281,7 +282,6 @@
     "Unreal Engine 教程/初学者教程/attachments",
     "Unreal Engine 教程/专用服务器/使用 AWS 和 GameLift 的专用服务器.md",
     "Unreal Engine 教程/初学者教程",
-    "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
     "Unreal Engine/程序/attachments/Pasted image 20250516154935.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516154254.png",
     "Unreal Engine/程序/attachments/Pasted image 20250516151320.png",
@@ -292,7 +292,6 @@
     "One/未命名",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171331.png",
     "计算机基础/数据结构&&算法/attachments/Pasted image 20250513171147.png",
-    "计算机基础/数据结构&&算法/attachments/Pasted image 20250513170530.png",
     "计算机基础/数据结构&&算法/attachments",
     "My Project/One",
     "计算机基础/数据结构&&算法",

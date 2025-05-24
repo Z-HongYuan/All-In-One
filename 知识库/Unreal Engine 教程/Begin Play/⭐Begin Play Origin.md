@@ -38,16 +38,16 @@
 [[5. Rendering 渲染]]
 从高层次上概述虚幻引擎 5 中的渲染管道，探索渲染管道的每个阶段，包括引擎如何决定渲染场景的内容和方式。
 
-## Gameplay(游戏玩法)~~√~~
+## Gameplay(游戏玩法)√
 
 [Gameplay](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/MhSXwXw71i4jYlkBXDhl5zbmgCf)
 [[6. Gameplay 游戏机制]]
 从高层次概述游戏框架结构，包括角色棋子、控制器和 HUD 集成等功能。
 
-## Audio(音频)
+## Audio(音频)~~√~~
 
 [Audio](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/Kk6jw2PwliksCSkAR4NlZRljgHe)
-[[Audio 音效]]
+[[7. Audio 音频]]
 从高层次概述虚幻引擎 5 音频管道的结构和实现方式，回顾 MetaSound 和 Sound Submixes 等核心功能，并提供一些常见提示和最佳实践。
 
 ## Niagara(粒子系统)
