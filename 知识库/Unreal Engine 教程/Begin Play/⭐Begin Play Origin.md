@@ -50,10 +50,10 @@
 [[7. Audio 音频]]
 从高层次概述虚幻引擎 5 音频管道的结构和实现方式，回顾 MetaSound 和 Sound Submixes 等核心功能，并提供一些常见提示和最佳实践。
 
-## Niagara(粒子系统)
+## Niagara(粒子系统)~~√~~
 
 [Niagara](https://jsgqfsm5h1r9.sg.larksuite.com/wiki/UA9wwpZdfi8hy0kE9rZluXJhghg)
-[[Niagara 特效]]
+[[8. Niagara 粒子系统]]
 从高层次概述虚幻引擎 5 中使用的 Niagara 特效系统，从探索 Niagara 管道的每个阶段，包括系统，发射器和模块，到检查制作效果的内容以及相关的工具范围。
 
 ## Animation(动画)
