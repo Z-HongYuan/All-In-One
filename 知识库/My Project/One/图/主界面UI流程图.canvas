@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"d140fa4146c79f7a","type":"text","text":"进入游戏","x":-640,"y":-680,"width":250,"height":60},
+		{"id":"2fd076d3e1b4204b","type":"text","text":"播放影片","x":-300,"y":-680,"width":250,"height":60},
+		{"id":"f84fc7ef286feda0","type":"text","text":"主菜单","x":-50,"y":-440,"width":250,"height":220},
+		{"id":"edbce16fe400c004","x":-725,"y":-535,"width":420,"height":410,"type":"text","text":"设置界面\n- General (菜单访问与导航)  \n- Video / Graphics (画面与渲染)  \n- Audio / Sound (声音与音乐)  \n- Controls / Input (操控与键位)  \n- Language (语言与字幕)  \n- Gameplay (玩法与辅助)  \n- Network / Online (联机与语音)  \n- Accessibility (无障碍功能)  \n- Interface / UI (界面元素)  \n- Other / Utility (重置、保存等)"}
+	],
+	"edges":[
+		{"id":"8b955871587cbbe9","fromNode":"d140fa4146c79f7a","fromSide":"right","toNode":"2fd076d3e1b4204b","toSide":"left"},
+		{"id":"55bdd8f3b56d81ae","fromNode":"2fd076d3e1b4204b","fromSide":"right","toNode":"f84fc7ef286feda0","toSide":"top"},
+		{"id":"c7b3d3820d365f45","fromNode":"f84fc7ef286feda0","fromSide":"left","toNode":"edbce16fe400c004","toSide":"right"}
+	]
+}

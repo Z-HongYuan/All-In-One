@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"171aa603f2dd38da","type":"text","text":"`CharacterBase`提供`StartGive`的初始化方法","x":-209,"y":-500,"width":269,"height":140},
+		{"id":"cd5f2b29cdc5a258","type":"text","text":"Player","x":-439,"y":-40,"width":250,"height":60},
+		{"id":"cf5799da0176dd2b","type":"text","text":"`BeginPlay`的时候初始化`GAS`指针","x":311,"y":-240,"width":220,"height":80},
+		{"id":"2fd12d44544b0711","type":"text","text":"`PlayerState`实例化`GAS`实现持久的`ASC`组件\n","x":-780,"y":-240,"width":300,"height":90},
+		{"id":"0e74ce83cdccf6cf","type":"text","text":"Enemy","x":61,"y":-40,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c6f3d13de4af0fa7","fromNode":"171aa603f2dd38da","fromSide":"bottom","toNode":"cd5f2b29cdc5a258","toSide":"top","label":"继承GAS指针\n和初始化方法"},
+		{"id":"0d391d42d4642d0b","fromNode":"171aa603f2dd38da","fromSide":"bottom","toNode":"0e74ce83cdccf6cf","toSide":"top","label":"继承GAS指针\n和初始化方法"},
+		{"id":"51073867d5cc05cb","fromNode":"cf5799da0176dd2b","fromSide":"left","toNode":"0e74ce83cdccf6cf","toSide":"top"},
+		{"id":"a7014cc256183743","fromNode":"2fd12d44544b0711","fromSide":"right","toNode":"cd5f2b29cdc5a258","toSide":"left","label":"填充指针"}
+	]
+}

@@ -1,29 +1,27 @@
 {
 	"nodes":[
-		{"id":"8c17482728645285","x":-1005,"y":-1120,"width":695,"height":560,"type":"group","label":"使用的前提"},
+		{"id":"8c17482728645285","type":"group","x":-1005,"y":-1120,"width":695,"height":560,"label":"使用的前提"},
 		{"id":"210300d409377bb6","type":"text","text":"`PlayerController`触发输入","x":-924,"y":-500,"width":305,"height":50},
 		{"id":"b1c824806874f686","type":"text","text":"`ASC`内的触发函数","x":-896,"y":-300,"width":250,"height":60},
-		{"id":"90c4ed34b506f2c5","type":"text","text":"`Ability`内激活/触发事件","x":-912,"y":-80,"width":283,"height":50},
-		{"id":"f5fbaeff47d81c2d","type":"text","text":"前提:`ASC`的GiveWithTag","x":-904,"y":-1100,"width":267,"height":60},
 		{"id":"e8cb3f8e51719298","type":"text","text":"按键释放的时候","x":-560,"y":-505,"width":250,"height":60},
 		{"id":"c958ed883d2d5695","type":"text","text":"绑定输入的函数内绑定回调","x":-540,"y":-680,"width":200,"height":90},
-		{"id":"9c24a704cf9702f4","type":"text","text":"前提:`EnhanceInputComponent` & `DataAsset`","x":-985,"y":-880,"width":428,"height":50},
 		{"id":"df2073fe98d8c351","type":"text","text":"前提:`PlayerController`绑定输入","x":-942,"y":-660,"width":341,"height":50},
 		{"id":"067b627b546da90d","type":"text","text":"触发蓝图内的释放事件","x":-500,"y":-85,"width":250,"height":60},
-		{"id":"509772e1760abee2","type":"text","text":"技能本身的TagCount内就有InputTag","x":-590,"y":-1100,"width":250,"height":60},
-		{"id":"0082ab37a927ae81","type":"text","text":"在IMC内物理按键按下","x":-1235,"y":-505,"width":250,"height":60}
+		{"id":"90c4ed34b506f2c5","type":"text","text":"`Ability`内激活/触发事件","x":-912,"y":-80,"width":283,"height":50},
+		{"id":"0082ab37a927ae81","type":"text","text":"在IMC内物理按键按下","x":-1235,"y":-505,"width":250,"height":60},
+		{"id":"f5fbaeff47d81c2d","type":"text","text":"前提:`ASC`的GiveWithTag\n技能本身的TagCount内就有InputTag","x":-924,"y":-1100,"width":529,"height":100},
+		{"id":"9c24a704cf9702f4","type":"text","text":"前提:使用`EnhanceInputComponent`和拥有`DataAsset`","x":-918,"y":-900,"width":517,"height":50}
 	],
 	"edges":[
 		{"id":"a13969e2f5d7149a","fromNode":"df2073fe98d8c351","fromSide":"top","toNode":"9c24a704cf9702f4","toSide":"bottom"},
 		{"id":"543f59e464bc8df4","fromNode":"9c24a704cf9702f4","fromSide":"bottom","toNode":"df2073fe98d8c351","toSide":"top","label":"通过-增强输入类内的模版函数绑定\n遍历DataAsset内的所有键值对"},
 		{"id":"1c1e0ad3fe4f0413","fromNode":"df2073fe98d8c351","fromSide":"bottom","toNode":"210300d409377bb6","toSide":"top"},
 		{"id":"6c91ee52212de305","fromNode":"210300d409377bb6","fromSide":"bottom","toNode":"b1c824806874f686","toSide":"top","color":"1","label":"通过回调函数传入要触发的InputTag\n直接通过Cast调用"},
-		{"id":"35f6f75cb4869c9e","fromNode":"b1c824806874f686","fromSide":"bottom","toNode":"90c4ed34b506f2c5","toSide":"top","color":"1","label":"遍历ASC内的可激活技能是否拥有InputTag判断激活"},
+		{"id":"35f6f75cb4869c9e","fromNode":"b1c824806874f686","fromSide":"bottom","toNode":"90c4ed34b506f2c5","toSide":"top","color":"1","label":"遍历ASC内的可激活技能\n是否拥有InputTag判断激活"},
 		{"id":"3b07066ae3a63a51","fromNode":"f5fbaeff47d81c2d","fromSide":"bottom","toNode":"9c24a704cf9702f4","toSide":"top","label":"通过GiveAbilityWithTag来给予技能"},
 		{"id":"f5565761d25e2e8d","fromNode":"c958ed883d2d5695","fromSide":"left","toNode":"df2073fe98d8c351","toSide":"right"},
 		{"id":"dee0fc17dbdd6082","fromNode":"0082ab37a927ae81","fromSide":"right","toNode":"210300d409377bb6","toSide":"left"},
 		{"id":"2aa4872165408af8","fromNode":"e8cb3f8e51719298","fromSide":"left","toNode":"210300d409377bb6","toSide":"right"},
-		{"id":"edeaf72fa7e3032a","fromNode":"509772e1760abee2","fromSide":"left","toNode":"f5fbaeff47d81c2d","toSide":"right"},
 		{"id":"fbb92a774e8a153b","fromNode":"90c4ed34b506f2c5","fromSide":"right","toNode":"067b627b546da90d","toSide":"left"},
 		{"id":"7de40f00dfbc08c3","fromNode":"e8cb3f8e51719298","fromSide":"bottom","toNode":"067b627b546da90d","toSide":"left"}
 	]

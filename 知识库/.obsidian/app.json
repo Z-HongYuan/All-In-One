@@ -9,7 +9,7 @@
   "attachmentFolderPath": "./attachments",
   "readableLineLength": true,
   "propertiesInDocument": "visible",
-  "promptDelete": true,
+  "promptDelete": false,
   "trashOption": "none",
   "livePreview": false,
   "showInlineTitle": true

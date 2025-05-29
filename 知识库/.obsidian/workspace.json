@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⭐学习计划.md",
+                "file": "Unreal Engine/动画/ALS 动画系统.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐学习计划"
+              "title": "ALS 动画系统"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⭐学习计划.md",
+                "file": "Unreal Engine/动画/ALS 动画系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐学习计划 的大纲"
+              "title": "ALS 动画系统 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⭐学习计划.md",
+                "file": "Unreal Engine/动画/ALS 动画系统.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "⭐学习计划"
+              "title": "ALS 动画系统"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -227,53 +227,56 @@
   },
   "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "Unreal Engine/⭐UE ReadMe Origin.md",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165747.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165734.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165724.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165635.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165624.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165614.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165552.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165543.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250529165512.png",
+    "Job.md",
+    "My Project/Two/事件表.md",
+    "My Project/Two/Two.md",
+    "My Project/One/图/角色架构图.canvas",
+    "My Project/Two",
+    "My Project/One/图/模块图(关卡).canvas",
+    "My Project/One/图/主界面UI流程图.canvas",
+    "My Project/One/图/GAS输入流程图.canvas",
+    "My Project/One/Project Setting.md",
+    "My Project/One/文件架构/Content文件夹架构.md",
+    "My Project/One/文件架构/Source文件夹架构.md",
+    "My Project/One/⭐Genshin Origin.md",
+    "My Project/One/⭐One总结.md",
+    "My Project/One/One 调研.md",
+    "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
+    "Unreal Engine/程序/UE 指针.md",
+    "Unreal Engine/程序/UE 蓝图.md",
+    "Unreal Engine/程序/组件 接口 抽象类.md",
+    "Unreal Engine/插件/Gameplay Ability System/Gameplay Tag.md",
+    "Unreal Engine/插件/Gameplay Ability System/Task.md",
+    "Unreal Engine/插件/Gameplay Ability System/Gameplay Cue.md",
+    "Unreal Engine/插件/Gameplay Ability System/Effect.md",
+    "Unreal Engine/插件/Gameplay Ability System/Attribute.md",
+    "Unreal Engine/插件/Gameplay Ability System/ASC.md",
+    "Unreal Engine/插件/Gameplay Ability System/Ability.md",
     "⭐学习计划.md",
+    "Unreal Engine/⭐UE ReadMe Origin.md",
     "attachments/github恢复密码.txt",
     "attachments",
     "Unreal Engine/动画/attachments/Pasted image 20250525211816.png",
     "Unreal Engine/动画/attachments/Pasted image 20250525211807.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250525211758.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250525211732.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250525211721.png",
-    "Unreal Engine 教程/✅初学者教程/attachments/Pasted image 20250520143505.png",
-    "Unreal Engine 教程/✅初学者教程/attachments/0004B736.png",
     "Unreal Engine 教程/✅初学者教程/⭐初学者教程.md",
     "Unreal Engine 教程/✅初学者教程/Getting Start.md",
     "Unreal Engine 教程/✅初学者教程/Player & Input.md",
-    "Unreal Engine 教程/✅初学者教程/Level Editor.md",
-    "Unreal Engine 教程/✅初学者教程/Blueprints.md",
     "Unreal Engine 教程/✅初学者教程/attachments",
-    "Unreal Engine 教程/✅初学者教程/Actors.md",
     "Unreal Engine 教程/✅初学者教程",
-    "Unreal Engine 教程/attachments/Pasted image 20250525210523.png",
-    "Unreal Engine 教程/attachments/Pasted image 20250525210502.png",
-    "Unreal Engine 教程/attachments/Pasted image 20250525210455.png",
     "Unreal Engine 教程/attachments",
-    "My Project/One/图/GAS输入流程图.canvas",
     "My Project/One/图",
     "Games课程/Games104现代游戏引擎基础/attachments",
-    "Games课程/Games104现代游戏引擎基础/2. 如何构建游戏世界.md",
-    "Games课程/Games104现代游戏引擎基础/3. 引擎的渲染.md",
-    "Games课程/Games104现代游戏引擎基础/1. 引擎架构分层.md",
-    "Games课程/Games101图形学入门/基础.md",
     "Games课程/Games104现代游戏引擎基础",
     "Games课程/Games101图形学入门",
-    "Games课程",
-    "Unreal Engine 教程/初学者教程/⭐初学者教程.md",
-    "Unreal Engine 教程/初学者教程/Player & Input.md",
-    "Unreal Engine 教程/初学者教程/Level Editor.md",
-    "Unreal Engine 教程/初学者教程/Getting Start.md",
-    "Unreal Engine 教程/初学者教程/Blueprints.md",
-    "Unreal Engine 教程/初学者教程/Actors.md",
-    "Unreal Engine/插件/Common UI/Common UI 基础使用.md",
-    "Unreal Engine 教程/自己的笔记.md",
-    "My Project/One/Project Setting.md",
-    "My Project/One/One 调研.md",
-    "Unreal Engine/动画/ALS 动画系统.md",
-    "Unreal Engine/用户界面/UMG View Modal Plugin.md",
-    "My Project/Genshin Elemental Warfare/⭐Genshin Origin.md",
-    "Unreal Engine 教程/Begin Play/3. Blueprints 蓝图.md",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"

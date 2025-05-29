@@ -301,3 +301,158 @@ Gait 切换后再添加修改的
 1. 有共享规则
 2. 混合设置/根据自定义的曲线来混合
 3. 根据旋转的模式来切换不同的状态/瞄准方向/速度方向/注视方向
+
+# 事件图表加蓝图更新摄像机
+
+如果想要新效果
+角色新数据, 传入动画蓝图, 状态机有新模式切换
+
+玩家摄像机管理器没有接口, 所以唯一的外部调用事件就是下面那一个
+![[Pasted image 20250529165512.png]]
+摄像机系统的外部调用就是这个
+当被玩家控制器调用时候, 同时传入受控制的 pawn 旗子, 为的是获取 pawn 身上的参数
+
+> Set "Controlled Pawn" when Player Controller Possesses new character. (called from Player Controller)
+> 当玩家控制器拥有新角色时，设置 " 受控棋子 "。(由玩家控制器调用）
+玩家摄像机管理器里面的
+![[Pasted image 20250529165543.png]]
+
+![[Pasted image 20250529165552.png]]
+同时更新对于摄像机动画蓝图的更新引用, 设置玩家控制器变量和被控制的 pawn 棋子
+CameraBehavior 是玩家摄像机管理器里面添加的骨骼网格体组件
+BlueprintUpdateCamera/蓝图更新摄像机
+
+![[Pasted image 20250529165614.png]]
+首先检测是否需要自定义摄像机, 由 actor 标签决定, 同时需要保证所控制的角色身上需要拥有正确的标签
+
+![[Pasted image 20250529165624.png]]
+如果检测到没有标签调用返回父蓝图
+
+![[Pasted image 20250529165635.png]]
+如果拥有标签就返回自定义的摄像机参数
+
+# Character/角色
+
+注意调用父类, 不然继承不了父类的方法
+
+1. 事件图表
+
+2. 事件开始运行时
+
+3. 调用父类
+4. 调用 On Begin Play 函数
+
+5. 事件移动模式变化时
+
+6. 调用父类
+7. 调用 On Character Movement Mode Changed 函数
+
+8. 事件开始蹲伏时
+
+9. 调用父类
+10. 调用当 On Stance Changed 函数/当姿势更改时/设置姿势为蹲下
+
+11. 事件结束蹲伏时
+
+12. 调用父类
+13. 调用当 On Stance Changed 函数/当姿势更改时设置姿势为站立
+
+14. 状态更改时
+
+这些函数是执行基于以前和新状态的逻辑的好地方，因为只要状态发生变化（只要使用接口事件来更改状态），就应该调用它们。
+
+调用蓝图接口事件并且用宏函数比较后, 不相等时调用对应的函数:
+
+- 移动状态更改时 OnMovementStateChanged
+- 移动操作更改时 OnMovementActionChanged
+- 旋转模式更改时 OnRotationModeChanged
+- 步态更改时 OnGaitChanged
+- 视窗模式更改时 OnViewModeChanged
+- 覆盖状态更改时 OnOverlayStateChanged
+
+6. 事件跳跃时
+
+跳跃时：如果速度大于 100，则将新的 " 空中旋转 " 设置为速度旋转。
+
+1. 调用父类
+2. 设置在空中的旋转变量 In Air Rotation/If 速度大于 100 就使用最后的速度的旋转, 不是的话就使用角色的旋转
+3. 判断动画事例是否有效
+4. 调用 BPI_Jumped
+
+5. 事件着陆时
+
+6. 调用父类
+7. 根据 Break Fall 变量, 判断分支 是的话调用 BreakFallEvent
+8. 不是的话再用 Has Movement Input 变量判断设置制动摩擦力因子经过一定延迟再变回之前的因子参数
+
+9. Break Fall Event/打断下落
+
+突破/滚动：只需播放根运动蒙太奇
+![[Pasted image 20250529165724.png]]
+
+1. Roll Event/翻滚
+![[Pasted image 20250529165734.png]]
+
+2. 攀爬时间线
+此时间线由 MantleStart 函数触发，并更新将角色提醒到新位置的函数。
+![[Pasted image 20250529165747.png]]
+
+3. 每帧事件图表 Tick
+
+- 事件 Tick
+
+1. 每帧设置基本信息值
+2. 根据移动状态分流
+3. 最后缓存下一帧需要的值
+
+4. 玩家输入图表 PlayerInput
+
+玩家输入逻辑
+
+# 接口
+
+1. 摄像机系统
+
+2. BPI Get TP Trace Params
+
+获取第三人称的位置
+
+2. BPI Get TP Pivot Target
+
+获取第三人称的中心位置
+
+3. BPI Get FP Camera Target
+
+获取第一人称的摄像机位置
+
+4. BPI Get Camera Parameters
+
+获取摄像参数
+
+2. 角色信息
+
+3. BPI Get Essential Values
+
+获取角色基本信息
+
+2. BPI Get Current States
+
+获取角色状态值
+
+3. 角色状态
+
+4. 设置角色状态值
+
+# 函数
+
+1. Essential Information/基本信息
+2. State Changes/状态改变
+3. Movement System/移动系统
+4. Rotation System/旋转系统
+5. Mantle System/攀爬系统
+6. Ragdoll System/布娃娃系统
+7. 输入
+8. 调试
+9. 工具
+
+# 变量
