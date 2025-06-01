@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/动画/ALS 动画系统.md",
+                "file": "My Project/Two/美术/角色处理规范.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ALS 动画系统"
+              "title": "角色处理规范"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine/动画/ALS 动画系统.md",
+                "file": "My Project/Two/美术/角色处理规范.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ALS 动画系统 的大纲"
+              "title": "角色处理规范 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/动画/ALS 动画系统.md",
+                "file": "My Project/Two/美术/角色处理规范.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ALS 动画系统"
+              "title": "角色处理规范"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -225,8 +225,24 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "15b13d4bd5f9f79e",
+  "active": "7364f23794011853",
   "lastOpenFiles": [
+    "My Project/Two/美术/3To2渲染.md",
+    "Blender/Blender Script 脚本.md",
+    "My Project/Two/美术/角色处理规范.md",
+    "My Project/Two/事件表.md",
+    "My Project/Two/Two.md",
+    "Blender/⭐Blender Learn 学习.md",
+    "Unreal Engine/渲染/三渲二.md",
+    "My Project/Two/美术/attachments/Pasted image 20250530191826.png",
+    "My Project/Two/美术/attachments",
+    "Unreal Engine/动画/attachments/Pasted image 20250426105345.png",
+    "Unreal Engine/动画/attachments/Pasted image 20250426105342.png",
+    "Unreal Engine/动画/ALS 动画系统.md",
+    "Unreal Engine/动画/Motion Matching (运动匹配).md",
+    "My Project/Two/美术",
+    "My Project/One/One 调研.md",
+    "My Project/One/Project Setting.md",
     "Unreal Engine/动画/attachments/Pasted image 20250529165747.png",
     "Unreal Engine/动画/attachments/Pasted image 20250529165734.png",
     "Unreal Engine/动画/attachments/Pasted image 20250529165724.png",
@@ -234,22 +250,16 @@
     "Unreal Engine/动画/attachments/Pasted image 20250529165624.png",
     "Unreal Engine/动画/attachments/Pasted image 20250529165614.png",
     "Unreal Engine/动画/attachments/Pasted image 20250529165552.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165543.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165512.png",
     "Job.md",
-    "My Project/Two/事件表.md",
-    "My Project/Two/Two.md",
     "My Project/One/图/角色架构图.canvas",
     "My Project/Two",
     "My Project/One/图/模块图(关卡).canvas",
     "My Project/One/图/主界面UI流程图.canvas",
     "My Project/One/图/GAS输入流程图.canvas",
-    "My Project/One/Project Setting.md",
     "My Project/One/文件架构/Content文件夹架构.md",
     "My Project/One/文件架构/Source文件夹架构.md",
     "My Project/One/⭐Genshin Origin.md",
     "My Project/One/⭐One总结.md",
-    "My Project/One/One 调研.md",
     "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
     "Unreal Engine/程序/UE 指针.md",
     "Unreal Engine/程序/UE 蓝图.md",
@@ -260,23 +270,13 @@
     "Unreal Engine/插件/Gameplay Ability System/Effect.md",
     "Unreal Engine/插件/Gameplay Ability System/Attribute.md",
     "Unreal Engine/插件/Gameplay Ability System/ASC.md",
-    "Unreal Engine/插件/Gameplay Ability System/Ability.md",
-    "⭐学习计划.md",
-    "Unreal Engine/⭐UE ReadMe Origin.md",
     "attachments/github恢复密码.txt",
     "attachments",
-    "Unreal Engine/动画/attachments/Pasted image 20250525211816.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250525211807.png",
-    "Unreal Engine 教程/✅初学者教程/⭐初学者教程.md",
-    "Unreal Engine 教程/✅初学者教程/Getting Start.md",
-    "Unreal Engine 教程/✅初学者教程/Player & Input.md",
     "Unreal Engine 教程/✅初学者教程/attachments",
     "Unreal Engine 教程/✅初学者教程",
     "Unreal Engine 教程/attachments",
     "My Project/One/图",
     "Games课程/Games104现代游戏引擎基础/attachments",
-    "Games课程/Games104现代游戏引擎基础",
-    "Games课程/Games101图形学入门",
     "未命名.canvas",
     "Genshin Elemental Warfare/未命名.canvas",
     "C++ Shooter/Multiple Player Plugin/未命名.canvas"
