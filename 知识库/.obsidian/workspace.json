@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Project/Two/美术/角色处理规范.md",
+                "file": "Unreal Engine/用户界面/UMG View Modal Plugin.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "角色处理规范"
+              "title": "UMG View Modal Plugin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -46,13 +46,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Project/Two/美术/角色处理规范.md",
+                "file": "Unreal Engine/用户界面/UMG View Modal Plugin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "角色处理规范 的大纲"
+              "title": "UMG View Modal Plugin 的大纲"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Project/Two/美术/角色处理规范.md",
+                "file": "Unreal Engine/用户界面/UMG View Modal Plugin.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -84,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "角色处理规范"
+              "title": "UMG View Modal Plugin"
             },
             "group": "b9c49d15e71dd437"
           }
@@ -225,60 +225,63 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "7364f23794011853",
+  "active": "15b13d4bd5f9f79e",
   "lastOpenFiles": [
-    "My Project/Two/美术/3To2渲染.md",
-    "Blender/Blender Script 脚本.md",
+    "Unreal Engine/用户界面/UI系统技巧.md",
+    "Unreal Engine/用户界面/UMG View Modal Plugin.md",
+    "Unreal Engine/用户界面/Common UI Plugin.md",
+    "Unreal Engine/用户界面/模块化和可扩展性UI系统.md",
+    "Unreal Engine/用户界面/多语言 本地化.md",
+    "Unreal Engine 教程/自己的笔记.md",
+    "Job.md",
+    "⭐学习计划.md",
+    "Unreal Engine 教程/✅初学者教程/Player & Input.md",
+    "Unreal Engine 教程/✅初学者教程/Level Editor.md",
+    "Unreal Engine 教程/✅初学者教程/Getting Start.md",
+    "Unreal Engine 教程/✅初学者教程/Blueprints.md",
+    "Unreal Engine 教程/✅初学者教程/Actors.md",
+    "My Project/Two/程序/武器/武器系统图.canvas",
+    "My Project/Two/程序/能力系统/ASC输入架构.canvas",
+    "My Project/Two/程序/角色/角色逻辑.canvas",
+    "Unreal Engine/程序/UE 蓝图.md",
+    "Unreal Engine/插件/Gameplay Ability System/⭐GAS中文文档.md",
+    "Unreal Engine/关卡切换/关卡切换.md",
     "My Project/Two/美术/角色处理规范.md",
-    "My Project/Two/事件表.md",
+    "My Project/Two/美术/3To2渲染.md",
+    "My Project/Two/程序/Gameplay架构.canvas",
     "My Project/Two/Two.md",
-    "Blender/⭐Blender Learn 学习.md",
+    "My Project/Two/事件表.md",
     "Unreal Engine/渲染/三渲二.md",
     "My Project/Two/美术/attachments/Pasted image 20250530191826.png",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250523105203.png",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250521174736.png",
+    "Unreal Engine 教程/Begin Play/attachments/WorldBuilding.png",
+    "Unreal Engine 教程/Begin Play/attachments/UMG.png",
+    "Unreal Engine 教程/Begin Play/attachments/Rendering.png",
+    "Unreal Engine 教程/Begin Play/attachments/Programming.png",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250425214743.png",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250425214640.png",
+    "Unreal Engine 教程/Begin Play/attachments/Pasted image 20250425214514.png",
+    "My Project/Two/程序/武器/武器系统.md",
+    "My Project/Two/程序/能力系统",
+    "My Project/Two/程序/角色",
+    "My Project/Two/程序/角色系统",
+    "My Project/Two/程序/武器",
+    "My Project/Two/程序/未命名.md",
+    "My Project/Two/程序/ASC/未命名.md",
+    "My Project/Two/程序/角色/CharacterBase.md",
+    "My Project/Two/程序/ASC",
+    "My Project/Two/程序/角色",
+    "My Project/Two/程序",
+    "Blender/Blender Script 脚本.md",
     "My Project/Two/美术/attachments",
-    "Unreal Engine/动画/attachments/Pasted image 20250426105345.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250426105342.png",
-    "Unreal Engine/动画/ALS 动画系统.md",
-    "Unreal Engine/动画/Motion Matching (运动匹配).md",
     "My Project/Two/美术",
-    "My Project/One/One 调研.md",
-    "My Project/One/Project Setting.md",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165747.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165734.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165724.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165635.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165624.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165614.png",
-    "Unreal Engine/动画/attachments/Pasted image 20250529165552.png",
-    "Job.md",
     "My Project/One/图/角色架构图.canvas",
     "My Project/Two",
     "My Project/One/图/模块图(关卡).canvas",
     "My Project/One/图/主界面UI流程图.canvas",
     "My Project/One/图/GAS输入流程图.canvas",
-    "My Project/One/文件架构/Content文件夹架构.md",
-    "My Project/One/文件架构/Source文件夹架构.md",
-    "My Project/One/⭐Genshin Origin.md",
-    "My Project/One/⭐One总结.md",
-    "My Project/Genshin Elemental Warfare/UI/Menu/Settings/Setting项目.md",
-    "Unreal Engine/程序/UE 指针.md",
-    "Unreal Engine/程序/UE 蓝图.md",
-    "Unreal Engine/程序/组件 接口 抽象类.md",
-    "Unreal Engine/插件/Gameplay Ability System/Gameplay Tag.md",
-    "Unreal Engine/插件/Gameplay Ability System/Task.md",
-    "Unreal Engine/插件/Gameplay Ability System/Gameplay Cue.md",
-    "Unreal Engine/插件/Gameplay Ability System/Effect.md",
-    "Unreal Engine/插件/Gameplay Ability System/Attribute.md",
-    "Unreal Engine/插件/Gameplay Ability System/ASC.md",
-    "attachments/github恢复密码.txt",
-    "attachments",
-    "Unreal Engine 教程/✅初学者教程/attachments",
-    "Unreal Engine 教程/✅初学者教程",
-    "Unreal Engine 教程/attachments",
-    "My Project/One/图",
-    "Games课程/Games104现代游戏引擎基础/attachments",
     "未命名.canvas",
-    "Genshin Elemental Warfare/未命名.canvas",
-    "C++ Shooter/Multiple Player Plugin/未命名.canvas"
+    "Genshin Elemental Warfare/未命名.canvas"
   ]
 }

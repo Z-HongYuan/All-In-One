@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"5bc193ad63601c7c","type":"file","file":"Unreal Engine 教程/Begin Play/attachments/Pasted image 20250523105203.png","x":-360,"y":-680,"width":779,"height":460},
+		{"id":"c9c424ba753e7262","type":"text","text":"PlayerController","x":-95,"y":-100,"width":250,"height":60},
+		{"id":"757e10aa84db4150","type":"text","text":"AIController","x":560,"y":-100,"width":250,"height":60},
+		{"id":"978aac576f1a039c","type":"text","text":"Enemy","x":559,"y":67,"width":250,"height":60},
+		{"id":"e3f3675f5ef2fc41","type":"text","text":"ASC组件","x":265,"y":-100,"width":250,"height":60},
+		{"id":"2239bf3a7b3d6888","type":"text","text":"Player","x":120,"y":97,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"1872159c726d49a7","fromNode":"c9c424ba753e7262","fromSide":"bottom","toNode":"2239bf3a7b3d6888","toSide":"left"},
+		{"id":"054e44c8e4432422","fromNode":"757e10aa84db4150","fromSide":"bottom","toNode":"978aac576f1a039c","toSide":"top"},
+		{"id":"229b9076e991b7f3","fromNode":"e3f3675f5ef2fc41","fromSide":"bottom","toNode":"2239bf3a7b3d6888","toSide":"top"},
+		{"id":"69dedb053882a5af","fromNode":"e3f3675f5ef2fc41","fromSide":"bottom","toNode":"978aac576f1a039c","toSide":"left"}
+	]
+}

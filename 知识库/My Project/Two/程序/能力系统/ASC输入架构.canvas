@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"075d97c29e10c650","type":"text","text":"AbilityInputDataAsset\n拥有 `IA` 和 `Tag` 之间的映射","x":-717,"y":-420,"width":355,"height":80},
+		{"id":"1a317b8f742e6c8e","type":"text","text":"`PlayerController` 的绑定输入\n通过自定义的增强输入组件的模版函数,根据TagMapping具体绑定触发的IA和需要传递的Tag","x":-260,"y":-380,"width":521,"height":253},
+		{"id":"e4c9c7ffbaaf9623","type":"text","text":"触发到`ASC`组件内输入函数\n在输入函数内根据`Tag`激活对应的能力\n自定义重载 `GiveAbilityWithTag`和 `K2`函数,使其在 `GiveAbility` 的时候能自动添加 `InputTag` ,方便后期查找","x":-280,"y":70,"width":461,"height":210},
+		{"id":"b971fed74120aba8","type":"text","text":"GA的输入支持:\n- `InputTag` 用于筛选能力的Tag\n- `NeedHeld` 是否需要每帧尝试激活","x":-800,"y":101,"width":400,"height":148},
+		{"id":"0d8990493f1c0839","type":"text","text":"增强输入组件的模版函数","x":-679,"y":-284,"width":280,"height":62}
+	],
+	"edges":[
+		{"id":"285bcf977f6a9aac","fromNode":"1a317b8f742e6c8e","fromSide":"left","toNode":"0d8990493f1c0839","toSide":"right","fromEnd":"arrow"},
+		{"id":"c401fd6f149f2d63","fromNode":"1a317b8f742e6c8e","fromSide":"bottom","toNode":"e4c9c7ffbaaf9623","toSide":"top","label":"物理输入触发\n传递Tag"},
+		{"id":"96681aa366b712d9","fromNode":"b971fed74120aba8","fromSide":"right","toNode":"e4c9c7ffbaaf9623","toSide":"left"},
+		{"id":"68dfa88be48a8f63","fromNode":"075d97c29e10c650","fromSide":"bottom","toNode":"0d8990493f1c0839","toSide":"top"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"3722ef0965d59407","type":"text","text":"**WeaponComponent**","x":-230,"y":-345,"width":250,"height":60},
+		{"id":"01b799e65dc37d56","type":"text","text":"Player/Enemy","x":-230,"y":-500,"width":250,"height":60},
+		{"id":"1ae989bc31985795","type":"text","text":"函数:\n- `SwitchWeapon()` 切换当前武器\n- `SpawnWeapon()` 生成所有武器\n\n变量:\n- `WeaponActor` 数组","x":-399,"y":-160,"width":589,"height":343},
+		{"id":"601bc4ecc3787a95","type":"text","text":"**WeaponActor**\n拥有ASC组件的WeaponActor\n核心逻辑是**在装备武器后,向拥有者的ASC内注册GA**","x":-1139,"y":-410,"width":570,"height":190},
+		{"id":"89375a2ce8872d66","type":"text","text":"函数:\n`EquipWeapon()` 装备武器\n`UnequipWeapon()` 卸载武器\n\n变量:\n- `WeaponMesh` 武器的网格体\n- `WeaponAbilities` 武器提供的能力数组\n- `bNeedEquip` 是否需要即时装备","x":-1116,"y":-120,"width":524,"height":300}
+	],
+	"edges":[
+		{"id":"b2b0fa2122c13ded","fromNode":"3722ef0965d59407","fromSide":"bottom","toNode":"1ae989bc31985795","toSide":"top"},
+		{"id":"bfab046a5e47867b","fromNode":"601bc4ecc3787a95","fromSide":"bottom","toNode":"89375a2ce8872d66","toSide":"top"},
+		{"id":"1b05cf8aec618d90","fromNode":"01b799e65dc37d56","fromSide":"bottom","toNode":"3722ef0965d59407","toSide":"top","label":"拥有"},
+		{"id":"5ba681ff14be2440","fromNode":"3722ef0965d59407","fromSide":"left","toNode":"601bc4ecc3787a95","toSide":"right"}
+	]
+}

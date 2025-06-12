@@ -78,9 +78,9 @@ Common UI 中，只有特定的控件才会被转化成需要处理输入信号�
 
 # Common UI 基础教程
 
-1. 启用 CommonUI 插件
+## 1. 启用 CommonUI 插件
     
-2. 修改游戏视口为 CommonUI
+## 2. 修改游戏视口为 CommonUI
 
 ## 3. 创建输入映射
 
@@ -120,7 +120,7 @@ Common UI 中，只有特定的控件才会被转化成需要处理输入信号�
 
 **Tips∶必须添加图像，否则不起作用**
 
-# 2. 创建 UI
+## 2. 创建 UI
 
 记得重载 GameMode
 
